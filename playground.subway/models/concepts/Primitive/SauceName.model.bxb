@@ -1,0 +1,4 @@
+enum (SauceName) {
+  description (__DESCRIPTION__)
+  symbol (__SYMBOL__)
+}

@@ -1,0 +1,15 @@
+structure (Bread) {
+  description (__DESCRIPTION__)
+  property (bName) {
+    type (BreadName)
+    min (Required) max (One)
+  }
+  property (cal) {
+    type (Cal)
+    min (Required) max (One)
+  }
+  property (detail) {
+    type (Detail)
+    min (Required) max (One)
+  }
+}

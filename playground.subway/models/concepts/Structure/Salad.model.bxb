@@ -1,0 +1,39 @@
+structure (Salad) {
+  description (__DESCRIPTION__)
+  property (sName) {
+    type (SaladName)
+    min (Required) max (One)
+  }
+  property (cal) {
+    type (Cal)
+    min (Required) max (One)
+  }
+  property (weight) {
+    type (Weight)
+    min (Required) max (One)
+  }
+  property (sugar) {
+    type (Sugar)
+    min (Required) max (One)
+  }
+  property (protein) {
+    type (Protein)
+    min (Required) max (One)
+  }
+  property (natrium) {
+    type (Natrium)
+    min (Required) max (One)
+  }
+  property (transfat) {
+    type (Transfat)
+    min (Required) max (One)
+  }
+  property (material) {
+    type (Material)
+    min (Required) max (One)
+  }
+  property (detail) {
+    type (Detail)
+    min (Required) max (One)
+  }
+}

@@ -1,0 +1,11 @@
+structure (Allergy) {
+  description (__DESCRIPTION__)
+  property (aname) {
+    type (AllergyName)
+    min (Required) max (One)
+  }
+  property (material) {
+    type (Material)
+    min (Required) max (One)
+  }
+}

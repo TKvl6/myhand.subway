@@ -1,0 +1,5 @@
+enum (BreadName) {
+  description (__DESCRIPTION__)
+  symbol (__SYMBOL__)
+}
+

@@ -1,0 +1,10 @@
+action (recommendSandwich) {
+  description (__DESCRIPTION__)
+  collect {
+    input (mName) {
+      type (MaterialName)
+      min (Optional) max (One)
+    }
+  }
+  output (Sandwich)
+}
