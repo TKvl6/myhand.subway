@@ -1,0 +1,51 @@
+structure (MenuResultConcept) {
+  description (__DESCRIPTION__)
+  property (no) {
+    type (NoConcept)
+    min (Optional) max (One)
+  }
+  property (category) {
+    type (Category)
+    min (Optional) max (One)
+  }
+  property (kname) {
+    type (Kname)
+    min (Optional) max (One)
+  }
+  property (ename) {
+    type (Ename)
+    min (Optional) max (One)
+  }
+  property (cal) {
+    type (Cal)
+    min (Optional) max (One)
+  }
+  property (weight) {
+    type (Weight)
+    min (Optional) max (One)
+  }
+  property (sugar) {
+    type (Sugar)
+    min (Optional) max (One)
+  }
+  property (protein) {
+    type (Protein)
+    min (Optional) max (One)
+  }
+  property (transfat) {
+    type (Transfat)
+    min (Optional) max (One)
+  }
+  property (natrium) {
+    type (Natrium)
+    min (Optional) max (One)
+  }
+  property (material) {
+    type (Material)
+    min (Optional) max (One)
+  }
+  property (detail) {
+    type (Detail)
+    min (Optional) max (One)
+  }
+}
