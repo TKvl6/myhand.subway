@@ -12,6 +12,11 @@ result-view {
               expression (item)
             }
           }
+          // layout-macro (material-hbox){
+          //   param (menu){
+          //     expression (item)
+          //   }
+          // }
         }
       }
     } else-if ("size(menuResult) == 1") {
@@ -27,6 +32,7 @@ result-view {
                 value ("result: #{value(menuResult.kname)}")
               }
             }
+            
           }
         }
       }

@@ -1,0 +1,34 @@
+layout-macro-def(material-hbox) {
+  params {
+    param (menu) {
+      type (MenuResultConcept)
+      min (Optional)
+      max (Many)
+    }
+  }
+
+  content {
+    hbox {
+      content {
+          vbox {
+          content {
+              single-line {
+                  text {
+                      value ("재료")
+                  }
+              }
+          }
+          }
+          vbox {
+          content {
+              single-line {
+                  text {
+                      value ("#{value(menu.material)}")
+                  }
+              }
+          }
+          }
+      }
+    }
+  }
+}
