@@ -1,0 +1,11 @@
+action (MenuFind) {
+  description (메뉴 찾기)
+  type(Search)
+  collect {
+    input (menu) {
+      type (NameConcept)
+      min (Required) max (One)
+    }
+  }
+  output (MenuResultConcept)
+}

@@ -1,4 +1,0 @@
-enum (SaladName) {
-  description (__DESCRIPTION__)
-  symbol (__SYMBOL__)
-}
