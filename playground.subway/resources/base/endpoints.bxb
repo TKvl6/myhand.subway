@@ -1,8 +1,0 @@
-endpoints {
-  action-endpoints {
-    action-endpoint (recommendSandwich) {
-      accepted-inputs (mName)
-      local-endpoint (recommendSandwich.js)
-    }
-  }
-}

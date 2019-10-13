@@ -1,15 +1,17 @@
 capsule {
   id (playground.subway)
-  version (0.1.0)
   format (3)
+  version (0.1.1)
   targets {
     target (bixby-mobile-en-US) {enabled (false)}
     target (bixby-mobile-ko-KR)
   }
   runtime-flags {
+    use-input-views-for-selection-list-detail
     concepts-inherit-super-type-features
     modern-prompt-rejection
     support-halt-effect-in-computed-inputs
+    no-filtering-with-validation
+    modern-default-view-behavior
   }
 }
-

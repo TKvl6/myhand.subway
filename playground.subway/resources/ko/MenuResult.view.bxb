@@ -1,0 +1,41 @@
+result-view {
+  match {
+    MenuResultConcept (menuResult)
+  }
+
+  render {
+    if ("size(menuResult) > 1") {
+      list-of (menuResult) {
+        where-each (item) {
+          layout-macro (menu-image-card) {
+            param (menu) {
+              expression (item)
+            }
+          }
+        }
+      }
+    } else-if ("size(menuResult) == 1") {
+      layout {
+        section {
+          content {
+            image {
+              url ("https://ipfs.io/ipfs/QmPoDJokUJ6AjcgXypDuy8ZqsSWWs17gFzqcM8JWmWKp5p/%5Csandwich%5C#{value(menuResult.no)}.jpg")
+            }
+            single-line {
+              text {
+                style (Detail_M)
+                value ("result: #{value(menuResult.kname)}")
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  conversation-drivers{
+    // if("value(menuResult.kname) == '햄'"){
+        conversation-driver("result: #{value(menuResult.kname)}")
+    // }
+  }
+}
