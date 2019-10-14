@@ -1,5 +1,5 @@
 capsule {
-  id (playground.subway)
+  id (myhand.fmc)
   format (3)
   version (0.1.1)
   targets {
@@ -13,5 +13,8 @@ capsule {
     support-halt-effect-in-computed-inputs
     no-filtering-with-validation
     modern-default-view-behavior
+  }
+  store-sections{
+    section (FoodAndDrink)
   }
 }
