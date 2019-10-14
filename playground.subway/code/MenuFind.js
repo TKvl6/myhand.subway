@@ -14,11 +14,10 @@ module.exports.function = function menuFind (menu) {
 
   console.log(response[0].material);
   
-  var result = [];
+  
   console.log(String(menu).replace(" ",""));
 
   var aJsonArray = new Array();
-
   var li = response[0].material.split(",");
   li.forEach(function(el){
     var aJson = new Object();
@@ -27,17 +26,18 @@ module.exports.function = function menuFind (menu) {
     aJsonArray.push(aJson);
   })
   
-  console.log(aJsonArray.pop);
+  console.log(aJsonArray);
 
   // var material = JSON.stringify(aJsonArray);
 
+  var result = [];
   for(var i = 0; i < response.length; i++) {
 
     if(textLib.fuzzyMatch(response[i].kname, menu)){
       result.push(response[i]);
     }
   }
-  // result[0].material = material;
+  result[0].material = aJsonArray;
 
   console.log(result);
   console.log("첫번째 재료 : " + result[0].material[0].mt);

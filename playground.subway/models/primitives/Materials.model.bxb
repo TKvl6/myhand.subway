@@ -1,0 +1,7 @@
+structure (Materials) {
+  description (__DESCRIPTION__)
+  property (mt) {
+    type (Material)
+    min (Optional) max (One)
+  }
+}

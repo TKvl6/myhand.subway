@@ -32,9 +32,29 @@ result-view {
                 value ("result: #{value(menuResult.kname)}")
               }
             }
-            
           }
         }
+        section{
+          content{
+            single-line {
+              text {
+                style (Detail_M)
+                value ("재료")
+              }
+            }
+            for-each (menuResult.material) {
+              as (item) {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("#{value(item.mt)}")
+                  }
+                }
+              }
+            }
+          }
+        }
+
       }
     }
   }
