@@ -4,7 +4,7 @@ action (exceptAllergy) {
   collect {
     input (aName) {
       type (AllergyName)
-      min (Optional) max (One)
+      min (Required) max (One)
     }
     input (list) {
       type (MenuResultConcept)

@@ -1,7 +1,7 @@
 train (t-r6naqblw442m934rckmzj8qzo) {
   utterance ("[g:MenuResultConcept] 꿀조합에서 (미트볼)[v:NameConcept] 찾아줘")
-  plan (Y2BmkEutSMwtyEnVS8lMTtXzTc0rDUotLs0pcc7PS04tKGEQxZB3y8xLYZBAEfZLzE2FaWBiYARiBiDJyAACTBAMAA==)
-  last-modified (1570688849233)
+  plan (Y2BmUC7ISaxML8ovzUvRKy5NKk+s1PNNzSsNSi0uzSlxzs9LTi0oYZDCrsgtMy+FQRZTzi8xNxWmlYmBEYgZgCQjAwgwQTAA)
+  last-modified (1571012732618)
 }
 train (t-rvyximvk28xiv5ak33plmz883) {
   utterance ("[g:exceptAllergy] (베이컨)[v:AllergyName] 뺀 메뉴 추천해줘")

@@ -4,7 +4,7 @@ module.exports.function = function exceptAllergy (aName,list) {
   var textLib = require('textLib');
   var allergy = util.searchAllergyByName(aName);
   if(list == null) list = util.getSandwichList(); // 샌드위치 list
-
+  console.log(list);
   var result = [];
   var aList = allergy.split(","); // allergy list
   next:
