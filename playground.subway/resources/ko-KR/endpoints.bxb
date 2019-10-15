@@ -8,5 +8,9 @@ endpoints {
        accepted-inputs (aName,list,searchKeyword)
        local-endpoint ("exceptAllergy.js")
      }
+     action-endpoint (RandomRecommend) {
+       accepted-inputs (subwayName)
+       local-endpoint ("RandomRecommend.js")
+     }
    }
 }

@@ -1,0 +1,11 @@
+action (RandomRecommend) {
+  type(Search)
+  description (서브웨이 메뉴 추천)
+  collect {
+    input (subwayName) {
+      type (SubwayName)
+      min (Optional) max (One)
+    }
+  }
+  output (MenuResultConcept)
+}

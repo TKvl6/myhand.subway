@@ -1,0 +1,4 @@
+enum (SubwayName) {
+  description (__DESCRIPTION__)
+  symbol (서브웨이)
+}
