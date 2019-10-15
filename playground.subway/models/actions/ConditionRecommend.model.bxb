@@ -1,10 +1,10 @@
-action (RandomRecommend) {
+action (ConditionRecommend) {
   type(Search)
-  description (서브웨이 메뉴 추천)
+  description (__DESCRIPTION__)
   collect {
-    input (subwayName) {
-      type (SubwayName)
-      min (Optional) max (One)
+    input (inputKeyword) {
+      type (InputKeyword)
+      min (Required) max (One)
     }
     input (searchKeyword) {
       type (SearchKeyword)
