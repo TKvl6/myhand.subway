@@ -13,6 +13,7 @@ module.exports.searchAllergyByName = function(aName){
 }
 module.exports.getSandwichList = function(){
   let sandwich = db.getSandwich();
+  
   return sandwich;
 }
 module.exports.searchSandwichByName = function(kName){

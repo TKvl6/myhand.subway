@@ -7,20 +7,35 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
   var res = [];
   if(inputKeyword == "다이어트"){
     response = tool.searchSandwichByCal(350,'low');
+    
     for(i =0; i< response.length; i++){
+      if(res.length == 4) break;
       var roll = Math.ceil(Math.random() * 7);
-      if(roll == 5)
+      if(roll == 5){
+        response[i].material = tool.divideMaterial(response[i].material);
         res.push(response[i]);
+      }
     }
   }else if(inputKeyword == "든든"){
     response = tool.searchSandwichByCal(450,'high');
     for(i =0; i< response.length; i++){
+      if(res.length == 4) break;
       var roll = Math.ceil(Math.random() * 7);
-      if(roll == 5)
+      if(roll == 5){
+        response[i].material = tool.divideMaterial(response[i].material);
         res.push(response[i]);
+      }
     }
   }else{
-    res = tool.searchSandwichByTag(inputKeyword);
+    response = tool.searchSandwichByTag(inputKeyword);
+    for(i =0; i< response.length; i++){
+      if(res.length == 4) break;
+      var roll = Math.ceil(Math.random() * 7);
+      if(roll == 5){
+        response[i].material = tool.divideMaterial(response[i].material);
+        res.push(response[i]);
+      }
+    }
   }
   return res;
 }
