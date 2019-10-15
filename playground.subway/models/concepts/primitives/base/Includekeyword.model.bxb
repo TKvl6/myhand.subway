@@ -1,0 +1,4 @@
+enum (IncludeKeyword) {
+  description (__DESCRIPTION__)
+  symbol (포함)
+}

@@ -1,4 +1,4 @@
-module.exports.function = function menuFind (menu,searchKeyword) {
+module.exports.function = function menuFind (menu,includeKeyword,searchKeyword) {
   var textLib = require('textLib');
   var tool = require('tool/util.js');
   var console = require('console');
@@ -16,6 +16,5 @@ module.exports.function = function menuFind (menu,searchKeyword) {
     }
   }
 
-  console.log(result);
   return result;
 }

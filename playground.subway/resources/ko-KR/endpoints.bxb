@@ -1,7 +1,7 @@
 endpoints {
    action-endpoints {
      action-endpoint (MenuFind) {
-       accepted-inputs (menu,searchKeyword)
+       accepted-inputs (menu,includeKeyword,searchKeyword)
        local-endpoint ("MenuFind.js")
      }
      action-endpoint (exceptAllergy) {
