@@ -13,6 +13,7 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
       var roll = Math.ceil(Math.random() * 7);
       if(roll == 5){
         response[i].material = tool.divideMaterial(response[i].material);
+        response[i].tag = tool.divideTag(response[i].tag);
         res.push(response[i]);
       }
     }
@@ -23,6 +24,7 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
       var roll = Math.ceil(Math.random() * 7);
       if(roll == 5){
         response[i].material = tool.divideMaterial(response[i].material);
+        response[i].tag = tool.divideTag(response[i].tag);
         res.push(response[i]);
       }
     }
@@ -33,6 +35,7 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
       var roll = Math.ceil(Math.random() * 7);
       if(roll == 5){
         response[i].material = tool.divideMaterial(response[i].material);
+        response[i].tag = tool.divideTag(response[i].tag);
         res.push(response[i]);
       }
     }

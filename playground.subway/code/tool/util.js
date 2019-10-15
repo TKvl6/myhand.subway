@@ -68,9 +68,9 @@ module.exports.searchSandwichByTag = function(tag){
   }
   return result;
 }
-module.exports.divideMaterial = function(material){
+module.exports.divideMaterial = function(m){
   var aJsonArray = new Array();
-  var li = material.split(",");
+  var li = m.split(",");
   li.forEach(function(el){
     var aJson = new Object();
     aJson.mt = el;
@@ -78,5 +78,13 @@ module.exports.divideMaterial = function(material){
   })
   return aJsonArray;
 }
-
+module.exports.divideTag = function(tag){
+  var aJsonArray = new Array();
+  var li = tag.split(",");
+  var str = "";
+  for(i =0; i< li.length; i++){
+    str += "#" + li[i] + " ";
+  }
+  return str;
+}
 
