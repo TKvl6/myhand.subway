@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # playground.subway
 ewgwgwowlwwrl3r32r32r3
 =======
@@ -45,4 +46,7 @@ intent {
 * Have a technical question? Ask on [Stack Overflow](https://stackoverflow.com/questions/tagged/bixby) with tag “bixby”
 
 
+>>>>>>> upstream/master
+=======
+subway
 >>>>>>> upstream/master

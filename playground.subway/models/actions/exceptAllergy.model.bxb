@@ -1,0 +1,19 @@
+action (exceptAllergy) {
+  type(Search)
+  description (알러지 메뉴를 제외한 메뉴)
+  collect {
+    input (aName) {
+      type (AllergyName)
+      min (Required) max (One)
+    }
+    input (list) {
+      type (MenuResultConcept)
+      min (Optional) max (One)
+    }
+    input (searchKeyword) {
+      type (SearchKeyword)
+      min (Optional) max (One)
+    }
+  }
+  output (MenuResultConcept)
+}

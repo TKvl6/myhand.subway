@@ -1,8 +1,0 @@
-endpoints {
-   action-endpoints {
-     action-endpoint (MenuFind) {
-       accepted-inputs (menu)
-       local-endpoint ("MenuFind.js")
-     }
-   }
-}

@@ -1,0 +1,97 @@
+result-view {
+  match {
+    MenuResultConcept (menuResult)
+  }
+
+  render {
+    if ("size(menuResult) > 1") {
+      list-of (menuResult) {
+        where-each (item) {
+          layout-macro (menu-image-card) {
+            param (menu) {
+              expression (item)
+            }
+          }
+          // layout-macro (material-hbox){
+          //   param (menu){
+          //     expression (item)
+          //   }
+          // }
+        }
+      }
+    } else-if ("size(menuResult) == 1") {
+      layout {
+        section {
+          content {
+            image {
+              url ("https://ipfs.io/ipfs/QmPoDJokUJ6AjcgXypDuy8ZqsSWWs17gFzqcM8JWmWKp5p/%5Csandwich%5C#{value(menuResult.no)}.jpg")
+            }
+            single-line {
+              text {
+                style (Title_M)
+                value ("환상적인 매콤한 맛!")
+              }
+            }
+            single-line {
+              text{
+                style (Detail_M)
+                value ("#새우 #달콤 #에그마요")
+              }
+            }
+          }
+        }
+        section{
+          content{
+            single-line {
+              text {
+                style (Title_S)
+                value ("재료")
+              }
+            }
+            for-each (menuResult.material) {
+              as (item) {
+                // single-line {
+                //   text {
+                //     style (Detail_M)
+                //     value ("#{value(item.mt)}")
+                //   }
+                // }
+                hbox {
+                  content {
+                      vbox {
+                      content {
+                          single-line{
+                            image{
+                              url ("https://ipfs.io/ipfs/QmPoDJokUJ6AjcgXypDuy8ZqsSWWs17gFzqcM8JWmWKp5p/%5Csandwich%5C#{value(menuResult.no)}.jpg")
+                            }
+                          }
+                      }
+                      }
+                      vbox {
+                      content {
+                          single-line {
+                              text {
+                                  style (Detail_M)
+                                  value ("#{value(item.mt)}")
+                              }
+                          }
+                      }
+                      }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+  conversation-drivers{
+    // if("value(menuResult.kname) == '햄'"){
+        conversation-driver("토핑 추가해줘")
+        conversation-driver("토핑 빼줘")
+    // }
+  }
+
+}

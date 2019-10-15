@@ -41,11 +41,15 @@ structure (MenuResultConcept) {
     min (Optional) max (One)
   }
   property (material) {
-    type (Material)
-    min (Optional) max (One)
+    type (Materials)
+    min (Optional) max (Many)
   }
   property (detail) {
     type (Detail)
+    min (Optional) max (One)
+  }
+  property (tag) {
+    type (Tag)
     min (Optional) max (One)
   }
 }
