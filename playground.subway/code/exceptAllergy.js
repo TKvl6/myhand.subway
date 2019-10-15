@@ -1,4 +1,4 @@
-module.exports.function = function exceptAllergy (aName,list) {
+module.exports.function = function exceptAllergy (aName,list,searchKeyword) {
   var util = require('tool/util.js');
   var console = require('console');
   var textLib = require('textLib');

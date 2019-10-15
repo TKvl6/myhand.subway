@@ -1,13 +1,9 @@
-action (MenuFind) {
-  description (메뉴 찾기)
+action (RandomRecommend) {
   type(Search)
+  description (서브웨이 메뉴 추천)
   collect {
-    input (menu) {
-      type (NameConcept)
-      min (Required) max (One)
-    }
-    input (includeKeyword) {
-      type (IncludeKeyword)
+    input (subwayName) {
+      type (SubwayName)
       min (Optional) max (One)
     }
     input (searchKeyword) {

@@ -1,14 +1,10 @@
-action (MenuFind) {
-  description (메뉴 찾기)
+action (ConditionRecommend) {
   type(Search)
+  description (__DESCRIPTION__)
   collect {
-    input (menu) {
-      type (NameConcept)
+    input (inputKeyword) {
+      type (InputKeyword)
       min (Required) max (One)
-    }
-    input (includeKeyword) {
-      type (IncludeKeyword)
-      min (Optional) max (One)
     }
     input (searchKeyword) {
       type (SearchKeyword)

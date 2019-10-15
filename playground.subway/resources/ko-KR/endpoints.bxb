@@ -1,0 +1,20 @@
+endpoints {
+   action-endpoints {
+     action-endpoint (MenuFind) {
+       accepted-inputs (menu,includeKeyword,searchKeyword)
+       local-endpoint ("MenuFind.js")
+     }
+     action-endpoint (exceptAllergy) {
+       accepted-inputs (aName,list,searchKeyword)
+       local-endpoint ("exceptAllergy.js")
+     }
+     action-endpoint (RandomRecommend) {
+       accepted-inputs (subwayName,searchKeyword)
+       local-endpoint ("RandomRecommend.js")
+     }
+     action-endpoint (ConditionRecommend) {
+       accepted-inputs (inputKeyword,searchKeyword)
+       local-endpoint ("ConditionRecommend.js")
+     }
+   }
+}

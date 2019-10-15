@@ -13,6 +13,7 @@ module.exports.searchAllergyByName = function(aName){
 }
 module.exports.getSandwichList = function(){
   let sandwich = db.getSandwich();
+  
   return sandwich;
 }
 module.exports.searchSandwichByName = function(kName){
@@ -54,16 +55,36 @@ module.exports.searchSandwichByCal = function(cal, standard){
       }
     }
   }
-  module.exports.divideMaterial = function(material){
-    var aJsonArray = new Array();
-    var li = response[0].material.split(",");
-    li.forEach(function(el){
-      var aJson = new Object();
-      aJson.mt = el;
-      console.log(el);
-      aJsonArray.push(aJson);
-    })
-    
-    console.log(aJsonArray);
-  }
+  return result;
 }
+module.exports.searchSandwichByTag = function(tag){ 
+  // standard : cal보다 높은지 낮은지
+  let sandwich = db.getSandwich();
+  let result = [];
+  for(i = 0; i < sandwich.length; i++){
+    if(textLib.fuzzyMatch(sandwich[i].tag,tag)){
+      result.push(sandwich[i]);
+    }
+  }
+  return result;
+}
+module.exports.divideMaterial = function(m){
+  var aJsonArray = new Array();
+  var li = m.split(",");
+  li.forEach(function(el){
+    var aJson = new Object();
+    aJson.mt = el;
+    aJsonArray.push(aJson);
+  })
+  return aJsonArray;
+}
+module.exports.divideTag = function(tag){
+  var aJsonArray = new Array();
+  var li = tag.split(",");
+  var str = "";
+  for(i =0; i< li.length; i++){
+    str += "#" + li[i] + " ";
+  }
+  return str;
+}
+

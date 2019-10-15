@@ -1,9 +1,8 @@
 capsule {
-  id (playground.subway)
+  id (myhand.fmc)
   format (3)
-  version (0.1.1)
+  version (0.1.3)
   targets {
-    target (bixby-mobile-en-US) {enabled (false)}
     target (bixby-mobile-ko-KR)
   }
   runtime-flags {
@@ -13,5 +12,8 @@ capsule {
     support-halt-effect-in-computed-inputs
     no-filtering-with-validation
     modern-default-view-behavior
+  }
+  store-sections{
+    section (FoodAndDrink)
   }
 }
