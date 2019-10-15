@@ -54,4 +54,16 @@ module.exports.searchSandwichByCal = function(cal, standard){
       }
     }
   }
+  module.exports.divideMaterial = function(material){
+    var aJsonArray = new Array();
+    var li = response[0].material.split(",");
+    li.forEach(function(el){
+      var aJson = new Object();
+      aJson.mt = el;
+      console.log(el);
+      aJsonArray.push(aJson);
+    })
+    
+    console.log(aJsonArray);
+  }
 }

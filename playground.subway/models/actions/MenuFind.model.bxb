@@ -7,5 +7,7 @@ action (MenuFind) {
       min (Required) max (One)
     }
   }
-  output (MenuResultConcept)
+  output (
+    
+  )
 }
