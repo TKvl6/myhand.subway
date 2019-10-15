@@ -1,0 +1,34 @@
+layout-macro-def(__MACRO_NAME__) {
+  params {
+    param (menu) {
+      type (MenuResultConcept)
+      min (Optional) max (Many)
+    }
+  }
+
+  content {
+    image-card {
+      aspect-ratio (4:3)
+      image-url ("https://ipfs.io/ipfs/QmPoDJokUJ6AjcgXypDuy8ZqsSWWs17gFzqcM8JWmWKp5p/%5Csandwich%5C#{value(menu.no)}.jpg")
+      title-area {
+        halign (Start)
+        slot1 {
+          text {
+            value ("#{value(menu.kname)}")
+            style (Title_L)
+          }
+        }
+        slot2 {
+          single-line {
+            text {
+              value ("칼로리 : #{value(menu.cal)}")
+              style (Detail_M)
+            }
+          }
+        }
+      }
+    }
+  }
+  
+
+}

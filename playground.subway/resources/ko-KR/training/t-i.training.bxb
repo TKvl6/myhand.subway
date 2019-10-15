@@ -1,0 +1,5 @@
+train (t-i49dr1jnvj3ccrqxhlm4jvk34) {
+  utterance ("[g:MenuFind] (스테이크)[v:NameConcept] (들어간거)[v:IncludeKeyword:포함] (보여줘)[v:SearchKeyword:검색]")
+  plan (Y2BlkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhEEaTdcvMS2GQRBL0zEvOKU1J9U6tLM8vSmEQQ5LyS8xNhZkjgSQenJpYlJwB08HCwMjAxMAMpBmALAiEASQ5AA==)
+  last-modified (1571150810226)
+}
