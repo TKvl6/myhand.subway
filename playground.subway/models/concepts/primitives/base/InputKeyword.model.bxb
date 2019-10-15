@@ -1,0 +1,6 @@
+enum (InputKeyword) {
+  description (__DESCRIPTION__)
+  symbol (다이어트)
+  symbol (든든)
+  symbol (달콤)
+}
