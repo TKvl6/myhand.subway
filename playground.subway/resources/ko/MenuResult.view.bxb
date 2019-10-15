@@ -23,19 +23,80 @@ result-view {
             }
             single-line {
               text {
-                style (Detail_M)
-                value ("result: #{value(menuResult.kname)}")
+                
+                value ("#새우 #달콤 #에그마요")
               }
             }
           }
         }
+     //여기서 부터
+                section{
+          content{
+            hbox {
+    content {
+        vbox {
+        content {
+           single-line{
+             image{
+               url ("https://ipfs.io/ipfs/QmPoDJokUJ6AjcgXypDuy8ZqsSWWs17gFzqcM8JWmWKp5p/%5Csandwich%5C#{value(menuResult.no)}.jpg")
+
+             }
+           }
+        }
+        }
+        vbox {
+        content {
+            single-line {
+                text {
+                    value ("재료 자리입니당")
+                }
+            }
+        }
+        }
+    }
+    }
+}
+
+        }
+        // 여기까지 for문으로 감싸주세요
+                section{ 
+          content{
+            hbox {
+    content {
+        vbox {
+        content {
+           single-line{
+             image{
+               url ("https://ipfs.io/ipfs/QmPoDJokUJ6AjcgXypDuy8ZqsSWWs17gFzqcM8JWmWKp5p/%5Csandwich%5C#{value(menuResult.no)}.jpg")
+
+             }
+           }
+        }
+        }
+        vbox {
+        content {
+            single-line {
+                text {
+                    value ("재료 자리입니당")
+                }
+            }
+        }
+        }
+    }
+    }
+}
+
+        }
       }
+
+
+
     }
   }
 
   conversation-drivers{
     // if("value(menuResult.kname) == '햄'"){
-        conversation-driver("result: #{value(menuResult.kname)}")
+        conversation-driver("토핑 추가해줘")
     // }
   }
 }
