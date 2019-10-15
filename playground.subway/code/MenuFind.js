@@ -1,4 +1,4 @@
-module.exports.function = function menuFind (menu) {
+module.exports.function = function menuFind (menu,searchKeyword) {
   var textLib = require('textLib');
 
   let options = {

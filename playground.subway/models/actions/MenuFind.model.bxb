@@ -6,6 +6,10 @@ action (MenuFind) {
       type (NameConcept)
       min (Required) max (One)
     }
+    input (searchKeyword) {
+      type (SearchKeyword)
+      min (Required) max (One)
+    }
   }
   output (MenuResultConcept)
 }

@@ -48,4 +48,8 @@ structure (MenuResultConcept) {
     type (Detail)
     min (Optional) max (One)
   }
+  property (tag) {
+    type (Tag)
+    min (Optional) max (One)
+  }
 }

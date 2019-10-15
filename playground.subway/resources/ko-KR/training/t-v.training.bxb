@@ -1,5 +1,5 @@
 train (t-vojf2fvhygnq41vgfa040z61r) {
-  utterance ([g:MenuFind] 에그마요 찾아줘)
-  plan (Y2BmkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhEEaTdcvMS2EQQxL0S8xNhSlmYmAEYgYgycjAAKMB)
-  last-modified (1571146287413)
+  utterance ("[g:MenuFind] (에그마요)[v:NameConcept] (찾아줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhEEaTdcvMS2EQQxL0S8xNhSmWQBIPTk0sSs7wTq0szy9KYWBmYGRgApIMQBoEIQAuCgA=)
+  last-modified (1571146933841)
 }
