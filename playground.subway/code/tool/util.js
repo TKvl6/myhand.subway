@@ -54,6 +54,18 @@ module.exports.searchSandwichByCal = function(cal, standard){
       }
     }
   }
+  return result;
+}
+module.exports.searchSandwichByTag = function(tag){ 
+  // standard : cal보다 높은지 낮은지
+  let sandwich = db.getSandwich();
+  let result = [];
+  for(i = 0; i < sandwich.length; i++){
+    if(textLib.fuzzyMatch(sandwich[i].tag,tag)){
+      result.push(sandwich[i]);
+    }
+  }
+  return result;
 }
 module.exports.divideMaterial = function(material){
   var aJsonArray = new Array();

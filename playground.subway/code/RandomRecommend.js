@@ -1,4 +1,4 @@
-module.exports.function = function randomRecommend () {
+module.exports.function = function randomRecommend (subwayName,searchKeyword) {
   var textLib = require('textLib');
   var tool = require('tool/util.js');
   var console = require('console');
