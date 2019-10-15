@@ -20,7 +20,7 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
         res.push(response[i]);
     }
   }else{
-    res = tool.searchSandwichByCal(inputKeyword);
+    res = tool.searchSandwichByTag(inputKeyword);
   }
   return res;
 }

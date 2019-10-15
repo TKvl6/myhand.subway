@@ -3,8 +3,7 @@ module.exports.function = function menuFind (menu,includeKeyword,searchKeyword) 
   var tool = require('tool/util.js');
   var console = require('console');
   let response = tool.getSandwichList();
-  
-  
+    
   console.log(String(menu).replace(" ",""));
 
   var result = [];
