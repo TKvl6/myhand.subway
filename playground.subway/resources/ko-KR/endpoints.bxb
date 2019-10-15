@@ -4,5 +4,9 @@ endpoints {
        accepted-inputs (menu)
        local-endpoint ("MenuFind.js")
      }
+     action-endpoint (exceptAllergy) {
+       accepted-inputs (aName,list)
+       local-endpoint ("exceptAllergy.js")
+     }
    }
 }
