@@ -1,0 +1,11 @@
+action (tagsentence) {
+  type(Search)
+  description (__DESCRIPTION__)
+  collect {
+    input (menu) {
+      type (MenuResultConcept)
+      min (Optional) max (One)
+    }
+  }
+  output (Tag)
+}
