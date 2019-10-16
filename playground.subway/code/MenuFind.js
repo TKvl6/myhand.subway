@@ -10,6 +10,7 @@ module.exports.function = function menuFind (menu,includeKeyword,searchKeyword) 
   for(var i = 0; i < response.length; i++) {
     if(textLib.fuzzyMatch(response[i].kname, menu)){
       response[i].material = tool.divideMaterial(response[i].material);
+      response[i].tag = tool.divideTag(response[i].tag);
       result.push(response[i]);
     }
   }

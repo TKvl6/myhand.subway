@@ -1,0 +1,5 @@
+train (t-kg3fwcsiaekxm42rzabqec3k5) {
+  utterance ("[g:RandomRecommend] 너무조합에서 (서브웨이)[v:SubwayName:서브웨이] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEKSDQIy8nODUpPzc3NT81IYJJDkglMTi5IzvFMry/OLUhhEkWVKk8oTK/0Sc1MZmBkYGZiAJAOQBkEIgIsCAA==)
+  last-modified (1571156930321)
+}
