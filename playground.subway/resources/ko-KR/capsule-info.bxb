@@ -1,7 +1,7 @@
 capsule-info {
-  display-name (찰떡궁합)
+  display-name (메뉴도감)
   developer-name (SSAFY MH)
-  icon-asset (/images/logo3.png)
+  icon-asset (/images/logo6.png)
   description ("서브웨이 메뉴 조합을 추천해줍니다.")
   website-url (https://blog.naver.com/chang1428)
   terms-url (https://example.com/terms-of-use/)
@@ -10,10 +10,20 @@ capsule-info {
     keyword (서브웨이)
     keyword (메뉴추천)
   }
-  dispatch-name (찰떡궁합)
+  dispatch-name (메뉴도감)
   dispatch-aliases{
-    alias (찰떡꿍합)
-    alias (찰덕궁합)
-    alias (찰덕꿍합)
+    alias (매뉴도감)
+    alias (메뉴두감)
+    alias (네뉴도감)
+    alias (네뉴두감)
+    alias (애뉴도감)
+    alias (에뉴도감)
+    alias (에뉴두감)
+    alias (매누도감)
+    alias (메누도감)
+    alias (매누두감)
+    alias (메누두감)
+    alias (메뉴도강)
+    alias (매뉴도강)
   }
 }
