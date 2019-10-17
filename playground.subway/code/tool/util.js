@@ -58,15 +58,16 @@ module.exports.searchSandwichByCal = function(cal, standard){
 module.exports.divideMaterial = function(m){
   var aJsonArray = new Array();
   var li = m.split(",");
+  var index = 1;
   li.forEach(function(el){
     var aJson = new Object();
+    aJson.no = index++;
     aJson.mt = el;
     aJsonArray.push(aJson);
   })
   return aJsonArray;
 }
 module.exports.divideTag = function(tag){
-  var aJsonArray = new Array();
   var li = tag.split(",");
   var str = "";
   for(i =0; i< li.length; i++){
