@@ -10,6 +10,7 @@ input-view {
   render {
     image-picker (this) {
       size (Medium)
+      image-background-color (White)
     }
   }
 }

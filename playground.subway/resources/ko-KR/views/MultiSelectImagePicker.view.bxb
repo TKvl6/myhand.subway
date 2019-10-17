@@ -11,6 +11,7 @@ input-view {
   render {
     image-picker (this) {
       size (Small)
+      image-background-color (White)
     }
   }
 }
