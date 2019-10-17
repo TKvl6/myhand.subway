@@ -1,0 +1,5 @@
+enum (AddSub) {
+  description (__DESCRIPTION__)
+  symbol (추가)
+  symbol (빼)
+}

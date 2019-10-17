@@ -1,0 +1,17 @@
+input-view {  
+  match: Image (this) {
+    to-input: MultiSelectImage //This to-input will depend on which action you've implemented
+    
+  }
+
+  message {
+    template (토핑 골라줘~)
+  }
+
+  render {
+    image-picker (this) {
+      size (Small)
+      image-background-color (White)
+    }
+  }
+}
