@@ -16,5 +16,9 @@ endpoints {
        accepted-inputs (inputKeyword,searchKeyword)
        local-endpoint ("ConditionRecommend.js")
      }
+     action-endpoint (MultiSelectImage) {
+       accepted-inputs (menu,images,addsub)
+       local-endpoint ("MultiSelectImage.js")
+     }
    }
 }
