@@ -55,6 +55,17 @@ module.exports.searchSandwichByCal = function(cal, standard){
     }
   }
 }
+
+module.exports.searchSandwichByTag = function(tag){ 
+  let sandwich = db.getSandwich();
+  let result = [];
+  for(i = 0; i < sandwich.length; i++){
+    if(textLib.fuzzyMatch(sandwich[i].tag,tag)){
+      result.push(sandwich[i]);
+    }
+  }
+  return result;
+}
 module.exports.divideMaterial = function(m){
   var aJsonArray = new Array();
   var li = m.split(",");
