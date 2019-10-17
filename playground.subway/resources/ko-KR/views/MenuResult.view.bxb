@@ -29,7 +29,7 @@ result-view {
             single-line {
               text {
                 style (Title_M)
-                value ("환상적인 매콤한 맛!")
+                value ("#{value(menuResult.detail)}")
               }
             }
             single-line {
