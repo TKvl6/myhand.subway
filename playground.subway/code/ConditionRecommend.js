@@ -14,6 +14,7 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
       if(roll == 5){
         response[i].material = tool.divideMaterial(response[i].material);
         response[i].tag = tool.divideTag(response[i].tag);
+        response[i].detail = tool.tagsentence(response[i].material);
         res.push(response[i]);
       }
     }
@@ -25,6 +26,7 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
       if(roll == 5){
         response[i].material = tool.divideMaterial(response[i].material);
         response[i].tag = tool.divideTag(response[i].tag);
+        response[i].detail = tool.tagsentence(response[i].material);
         res.push(response[i]);
       }
     }
@@ -36,6 +38,7 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
       if(roll == 5){
         response[i].material = tool.divideMaterial(response[i].material);
         response[i].tag = tool.divideTag(response[i].tag);
+        response[i].detail = tool.tagsentence(response[i].material);
         res.push(response[i]);
       }
     }
