@@ -6,23 +6,60 @@ layout-macro-def (menu-image-card) {
     }
   }
   content {
+    compound-card {
+      content{
     image-card {
-      aspect-ratio (4:3)
+      aspect-ratio (16:9)
       image-url ("https://ipfs.io/ipfs/QmPoDJokUJ6AjcgXypDuy8ZqsSWWs17gFzqcM8JWmWKp5p/%5Csandwich%5C#{value(menu.no)}.jpg")
+      
+      
+      // title-area {
+      //   halign (Start)
+      //   slot1 {
+      //     text {
+      //       value ("#{value(menu.kname)}")
+      //       style (Title_L)
+      //     }
+      //   }
+      //   slot2 {
+      //     single-line {
+      //       text {
+      //         value ("칼로리 : #{value(menu.cal)}")
+      //         style (Detail_M)
+      //       }
+      //     }
+      //   }
+      // }
       title-area {
-        halign (Start)
-        slot1 {
+            halign (Start)
+            slot1 {
+              text {
+                value ("")
+                style (Title_M)
+              }
+            }
+      }
+    }
+    single-line {
           text {
-            value ("#{value(menu.kname)}")
-            style (Title_L)
+            value {
+              template ("#{value(menu.kname)}")
+            }
+            style (Title_M)
           }
         }
-        slot2 {
-          single-line {
-            text {
-              value ("칼로리 : #{value(menu.cal)}")
-              style (Detail_M)
+        paragraph {
+          value {
+            template ("칼로리 : #{value(menu.cal)}")
+          }
+          style (Detail_L)
+        }
+        single-line {
+          text {
+            value {
+              template ("칼로리 : #{value(menu.cal)}")
             }
+            style (Detail_M_Soft)
           }
         }
       }
