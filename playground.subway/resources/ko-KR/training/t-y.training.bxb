@@ -1,0 +1,10 @@
+train (t-yskuc7ejmkxukl3b4kp4vzujv) {
+  utterance ("[g:ConditionRecommend] (매콤한)[v:InputKeyword:매콤] 메뉴 (찾아줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
+  last-modified (1571560246039)
+}
+train (t-yvt3stxv7390rrkvjb8t37y01) {
+  utterance ("[g:ConditionRecommend] (매콤한)[v:InputKeyword:매콤] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
+  last-modified (1571560247211)
+}

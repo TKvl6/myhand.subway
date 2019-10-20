@@ -3,4 +3,9 @@ enum (InputKeyword) {
   symbol (다이어트)
   symbol (든든)
   symbol (달콤)
+  symbol (매콤)
+  symbol (바삭)
+  symbol (고소)
+  symbol (부드러운)
+  symbol (담백)
 }
