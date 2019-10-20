@@ -82,6 +82,28 @@ result-view {
                 }
               }
             }
+            
+              
+
+              
+									input-cell {
+                    
+										label ("")
+										value ("주문하기")
+										on-click {
+											//This intent relies on searchTerm matching the item which is not a good practice, a better approach
+											//was to allow an ID as input to SelectItem and use `this.id` in the intent
+											intent {
+												goal {
+													MenuFind
+													@context (Continuation) { Order }
+												}
+											
+											}
+										}
+									
+                  }
+
           }
         }
 

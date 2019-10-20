@@ -50,7 +50,7 @@ layout-macro-def (menu-image-card) {
         }
         paragraph {
           value {
-            template ("칼로리 : #{value(menu.cal)}")
+            template ("#{value(menu.tag)}")
           }
           style (Detail_L)
         }
