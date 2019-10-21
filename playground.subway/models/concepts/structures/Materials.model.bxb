@@ -4,6 +4,10 @@ structure (Materials) {
     type (NoConcept)
     min (Optional) max (One)
   }
+  property (index){
+    type (Index)
+    min (Optional) max (One)
+  }
   property (mt) {
     type (Material)
     min (Optional) max (One)

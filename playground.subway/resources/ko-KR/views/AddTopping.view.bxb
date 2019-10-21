@@ -1,6 +1,6 @@
 input-view {  
   match: Image (this) {
-    to-input: MultiSelectImage //This to-input will depend on which action you've implemented
+    to-input: AddTopping //This to-input will depend on which action you've implemented
     
   }
 

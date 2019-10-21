@@ -1,4 +1,4 @@
-  action (MultiSelectImage) {
+action (DeleteTopping) {
   type (Search)
   collect {
     input(menu){
@@ -201,10 +201,6 @@
         }
       }
     }
-    input (addsub){
-      type (AddSub)
-      min (Optional) max (One)
-    }
   }
-  output (MenuResultConcept) 
+  output (MenuResultConcept)
 }
