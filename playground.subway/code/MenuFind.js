@@ -11,6 +11,7 @@ module.exports.function = function menuFind (menu,includeKeyword,searchKeyword) 
     if(textLib.fuzzyMatch(response[i].kname, menu)){
       response[i].material = tool.divideMaterial(response[i].material);
       response[i].tag = tool.divideTag(response[i].tag);
+      response[i].detail = tool.tagsentence(response[i].material);
       result.push(response[i]);
     }
   }

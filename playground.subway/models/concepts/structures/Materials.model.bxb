@@ -1,6 +1,9 @@
 structure (Materials) {
   description (__DESCRIPTION__)
+<<<<<<< HEAD:playground.subway/models/concepts/structures/Materials.model.bxb
 
+=======
+>>>>>>> upstream/master:playground.subway/models/concepts/primitives/Materials.model.bxb
   property (no) {
     type (NoConcept)
     min (Optional) max (One)

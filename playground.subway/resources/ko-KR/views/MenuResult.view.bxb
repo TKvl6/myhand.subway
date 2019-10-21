@@ -24,12 +24,13 @@ result-view {
         section {
           content {
             image {
-              url ("https://ipfs.io/ipfs/QmPoDJokUJ6AjcgXypDuy8ZqsSWWs17gFzqcM8JWmWKp5p/%5Csandwich%5C#{value(menuResult.no)}.jpg")
+              url ("https://ipfs.io/ipfs/QmR5jpomNBs7zwcKiKWN8WRi4R8Y9aN57uh78ZvhYnhXex/sandwich/#{value(menuResult.no)}.jpg")
+              // url ("https://ipfs.io/ipfs/QmPoDJokUJ6AjcgXypDuy8ZqsSWWs17gFzqcM8JWmWKp5p/%5Csandwich%5C#{value(menuResult.no)}.jpg")
             }
             single-line {
               text {
                 style (Title_M)
-                value ("환상적인 매콤한 맛!")
+                value ("#{value(menuResult.detail)}")
               }
             }
             single-line {
@@ -62,7 +63,7 @@ result-view {
                       content {
                           single-line{
                             image{
-                              url ("https://ipfs.io/ipfs/QmPoDJokUJ6AjcgXypDuy8ZqsSWWs17gFzqcM8JWmWKp5p/%5Csandwich%5C#{value(menuResult.no)}.jpg")
+                              url ("https://ipfs.io/ipfs/QmR5jpomNBs7zwcKiKWN8WRi4R8Y9aN57uh78ZvhYnhXex/sandwich/#{value(menuResult.no)}.jpg")
                             }
                           }
                       }
@@ -81,6 +82,28 @@ result-view {
                 }
               }
             }
+            
+              
+
+              
+									input-cell {
+                    
+										label ("")
+										value ("주문하기")
+										on-click {
+											//This intent relies on searchTerm matching the item which is not a good practice, a better approach
+											//was to allow an ID as input to SelectItem and use `this.id` in the intent
+											intent {
+												goal {
+													MenuFind
+													@context (Continuation) { Order }
+												}
+											
+											}
+										}
+									
+                  }
+
           }
         }
 
