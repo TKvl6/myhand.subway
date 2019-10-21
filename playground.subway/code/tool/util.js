@@ -174,11 +174,11 @@ module.exports.tasteTag = function(index){
 }
 
 module.exports.getNameByNo = function(no){
-  var topping = db.getTopping();
+  var http = require('http');
+  var topping = http.getUrl('https://api.sheety.co/a590e2a1-d231-43c3-ac32-8fb031931e17',{format : "json"});
   for(i=0;i<topping.length;i++){
-    console.log(topping[i])
     if(no == topping[i].no){
-      return topping[i].kname;
+      return topping[i].material;
     }
   }
 }
