@@ -9,7 +9,7 @@ layout-macro-def(__MACRO_NAME__) {
   content {
     image-card {
       aspect-ratio (4:3)
-      image-url ("https://ipfs.io/ipfs/QmPoDJokUJ6AjcgXypDuy8ZqsSWWs17gFzqcM8JWmWKp5p/%5Csandwich%5C#{value(menu.no)}.jpg")
+      image-url ("https://ipfs.io/ipfs/QmYWxg8Fr83TBM91Vfnmk6PnyqG18xEZmFP5eLDytKjfBs/sandwich/#{value(menu.no)}.jpg")
       title-area {
         halign (Start)
         slot1 {
