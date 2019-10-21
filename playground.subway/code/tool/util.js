@@ -69,10 +69,26 @@ module.exports.searchSandwichByTag = function(tag){
 module.exports.divideMaterial = function(m){
   var aJsonArray = new Array();
   var li = m.split(",");
+  var http = require('http');
+  var tag = http.getUrl('https://api.sheety.co/a590e2a1-d231-43c3-ac32-8fb031931e17',{format : "json"});
   var index = 1;
   li.forEach(function(el){
     var aJson = new Object();
     aJson.no = index++;
+    var len = el.split(" ").length;
+    var mtArr = "";
+    if(el.split(" ")[0] == "추천") for(j = 1; j < len; j++) mtArr = mtArr + el.split(" ")[j];
+    else if(len > 1){
+      mtArr = el.split(" ",len-1);
+      mtArr = mtArr.join(" ");
+    } 
+    else if(len == 1) mtArr = el
+    for(i=0;i<tag.length;i++){
+      if(textLib.fuzzyMatch(tag[i].material,mtArr)){
+        aJson.index = tag[i].no;
+        break;
+      }
+    }
     aJson.mt = el;
     aJsonArray.push(aJson);
   })
@@ -88,7 +104,6 @@ module.exports.divideTag = function(tag){
 }
 module.exports.tagsentence = function(material) {
   var http = require('http');
-  var textLib = require('textLib');
   var console = require('console');
   var tag = http.getUrl('https://api.sheety.co/e543fd14-622d-46cf-a993-7654aa4a22be',{format : "json"});
   var res = [];

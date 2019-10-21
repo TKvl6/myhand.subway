@@ -5,6 +5,11 @@ action (RandomRecommend) {
     input (subwayName) {
       type (SubwayName)
       min (Optional) max (One)
+      default-init{
+        intent{
+          goal : RandomRecommend
+        }
+      }
     }
     input (searchKeyword) {
       type (SearchKeyword)
