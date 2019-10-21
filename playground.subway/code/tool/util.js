@@ -68,6 +68,7 @@ module.exports.searchSandwichByTag = function(tag){
 }
 module.exports.divideMaterial = function(m){
   var aJsonArray = new Array();
+  var index = 1;
   var li = m.split(",");
   var index = 1;
   li.forEach(function(el){
