@@ -70,9 +70,11 @@ module.exports.searchSandwichByTag = function(tag){
 }
 module.exports.divideMaterial = function(m){
   var aJsonArray = new Array();
+  var index = 1;
   var li = m.split(",");
   li.forEach(function(el){
     var aJson = new Object();
+    aJson.no = index++;
     aJson.mt = el;
     aJsonArray.push(aJson);
   })

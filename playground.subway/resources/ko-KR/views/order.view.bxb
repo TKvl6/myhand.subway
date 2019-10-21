@@ -1,0 +1,71 @@
+result-view{
+  match {
+    MenuResultConcept (menuResult)
+  }
+
+  message{
+    template ("주문 페이지")
+  }
+  render {
+    if ("size(menuResult) > 1") {
+      list-of (menuResult) {
+        where-each (item) {
+          layout-macro (menu-image-card) {
+            param (menu) {
+              expression (item)
+            }
+          }
+          // layout-macro (material-hbox){
+          //   param (menu){
+          //     expression (item)
+          //   }
+          // }
+        }
+      }
+    } else-if ("size(menuResult) == 1") {
+      layout {
+        section {
+          content {
+            image {
+              url ("https://ipfs.io/ipfs/QmPoDJokUJ6AjcgXypDuy8ZqsSWWs17gFzqcM8JWmWKp5p/%5Csandwich%5C#{value(menuResult.no)}.jpg")
+            }
+            single-line {
+              text {
+                style (Title_M)
+                value ("#{value(menuResult.kname)}")
+              }
+            }
+          }
+        }
+
+    section{
+      title("주문 순서")
+      content{
+        for-each (menuResult.material){
+          as(item){
+            cell-card{
+              slot2{
+                content{
+                  //primary("step #{item+1}")
+                  primary("#{value(item.no)} 단계")
+                  secondary("#{value(item.mt)}")
+                }
+              }
+            }
+          }
+        }
+        
+      }
+
+
+    }
+
+      }
+    }
+  }
+  conversation-drivers{
+    conversation-driver{
+      template ("주문 ㄱㄱ")
+    }
+  }
+}

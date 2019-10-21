@@ -1,5 +1,10 @@
 structure (Materials) {
   description (__DESCRIPTION__)
+
+  property (no) {
+    type (NoConcept)
+    min (Optional) max (One)
+  }
   property (mt) {
     type (Material)
     min (Optional) max (One)
