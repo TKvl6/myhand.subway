@@ -157,3 +157,13 @@ module.exports.tasteTag = function(index){
 
   return maxTag;
 }
+
+module.exports.getNameByNo = function(no){
+  var topping = db.getTopping();
+  for(i=0;i<topping.length;i++){
+    console.log(topping[i])
+    if(no == topping[i].no){
+      return topping[i].kname;
+    }
+  }
+}

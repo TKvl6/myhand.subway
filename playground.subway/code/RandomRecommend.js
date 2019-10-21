@@ -6,7 +6,7 @@ module.exports.function = function randomRecommend (subwayName,searchKeyword) {
   var result = [];
   for(var i = 0; i < response.length; i++) {
     if(result.length == 4) break;
-    var roll = Math.ceil(Math.random() * 10);
+    var roll = Math.ceil(Math.random() * 8);
     if(roll == 5){
         response[i].material = tool.divideMaterial(response[i].material);
         response[i].tag = tool.divideTag(response[i].tag);
