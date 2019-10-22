@@ -1,0 +1,11 @@
+action (order) {
+  description (주문하기)
+  type(Search)
+  collect {
+    input (menu) {
+      type (MenuResultConcept)
+      min (Required) max (One)
+    }
+  }
+  output (MenuResultConcept)
+}
