@@ -1,6 +1,5 @@
 input-view {  
   match: MenuResultConcept (this) {
-    from-output : RandomRecommend(this.img)
     to-input: DeleteTopping //This to-input will depend on which action you've implemented
   }
 
@@ -9,7 +8,6 @@ input-view {
   }
 
   render {
-
     image-picker (img) {
       size (Small)
       image-background-color (Transparent)
