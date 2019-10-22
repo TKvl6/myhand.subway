@@ -24,5 +24,9 @@ endpoints {
        accepted-inputs (menu,images)
        local-endpoint ("DeleteTopping.js")
      }
+     action-endpoint (order) {
+       accepted-inputs (menu)
+       local-endpoint ("order.js")
+     }
    }
 }

@@ -1,71 +1,55 @@
 result-view{
-  match {
-    MenuResultConcept (menuResult)
-  }
-
-  message{
-    template ("주문 페이지")
-  }
-  render {
-    if ("size(menuResult) > 1") {
-      list-of (menuResult) {
-        where-each (item) {
-          layout-macro (menu-image-card) {
-            param (menu) {
-              expression (item)
-            }
-          }
-          // layout-macro (material-hbox){
-          //   param (menu){
-          //     expression (item)
-          //   }
-          // }
-        }
-      }
-    } else-if ("size(menuResult) == 1") {
-      layout {
-        section {
-          content {
-            image {
-              url ("https://ipfs.io/ipfs/QmReVM7335RJNrfqStGqFiNXS3npqj9QJR1Fj7R2JnhjQf/sandwich/#{value(menuResult.no)}.jpg")
-            }
-            single-line {
-              text {
-                style (Title_M)
-                value ("#{value(menuResult.kname)}")
-              }
-            }
-          }
-        }
-
-    section{
-      title("주문 순서")
-      content{
-        for-each (menuResult.material){
-          as(item){
-            cell-card{
-              slot2{
-                content{
-                  //primary("step #{item+1}")
-                  primary("#{value(item.no)} 단계")
-                  secondary("#{value(item.mt)}")
-                }
-              }
-            }
-          }
-        }
-        
-      }
-
-
-    }
-
-      }
-    }
-  }
-  conversation-drivers{
-    conversation-driver{
-      template ("주문 ㄱㄱ")
-    }
-  }
+	match : MenuResultConcept (menuResult){
+		from-output : order
+	}
+	
+	message{
+		template ("주문 페이지")
+	}
+	render {
+		layout {
+			section {
+				content {
+					image {
+						url ("https://ipfs.io/ipfs/QmReVM7335RJNrfqStGqFiNXS3npqj9QJR1Fj7R2JnhjQf/sandwich/#{value(menuResult.no)}.jpg")
+					}
+					single-line {
+						text {
+							style (Title_M)
+							value ("#{value(menuResult.kname)}")
+						}
+					}
+				}
+			}
+			
+			section{
+				title("주문 순서")
+				content{
+					for-each (menuResult.material){
+						as(item){
+							cell-card{
+								slot2{
+									content{
+										//primary("step #{item+1}")
+										primary("#{value(item.no)} 단계")
+										secondary("#{value(item.mt)}")
+									}
+								}
+							}
+						}
+					}
+					
+				}
+				
+				
+			}
+			
+		}
+	}
+	
+	conversation-drivers{
+		conversation-driver{
+			template ("주문 ㄱㄱ")
+		}
+	}
 }
