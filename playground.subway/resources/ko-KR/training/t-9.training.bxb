@@ -1,0 +1,5 @@
+train (t-9kmugbw51wwx1d582evo92ywx) {
+  utterance ([g:DeleteTopping] 토핑 빼줘)
+  plan (Y2BikMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkECSdUnNSS1JDckvKMjMS2dgBEIGKAaSAA==)
+  last-modified (1571663959397)
+}
