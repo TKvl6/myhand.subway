@@ -2,10 +2,10 @@ structure (OrderResult) {
   description (__DESCRIPTION__)
   property (kname) {
     type (Kname)
-    min (Optional) max (Many)
+    min (Optional) max (One)
   }
-  property (material) {
-    type (Material)
-    min (Optional) max (Many)
+  property (orders) {
+    type (Orders)
+    min (Optional) max (One)
   }
 }
