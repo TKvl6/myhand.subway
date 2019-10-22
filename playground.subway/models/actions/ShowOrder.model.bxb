@@ -1,0 +1,10 @@
+action (ShowOrder) {
+  description (__DESCRIPTION__)
+  collect {
+    input (order) {
+      type (MenuResultConcept)
+      min (Optional) max (One)
+    }
+  }
+  output (MenuResultConcept)
+}
