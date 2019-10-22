@@ -4,10 +4,6 @@ endpoints {
        accepted-inputs (menu,includeKeyword,searchKeyword)
        local-endpoint ("MenuFind.js")
      }
-     action-endpoint (exceptAllergy) {
-       accepted-inputs (aName,list,searchKeyword)
-       local-endpoint ("exceptAllergy.js")
-     }
      action-endpoint (RandomRecommend) {
        accepted-inputs (subwayName,searchKeyword)
        local-endpoint ("RandomRecommend.js")
@@ -21,7 +17,7 @@ endpoints {
        local-endpoint ("AddTopping.js")
      }
      action-endpoint (DeleteTopping) {
-       accepted-inputs (menu,images)
+       accepted-inputs (menu)
        local-endpoint ("DeleteTopping.js")
      }
      action-endpoint (order) {

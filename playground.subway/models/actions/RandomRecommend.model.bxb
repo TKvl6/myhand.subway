@@ -16,5 +16,5 @@ action (RandomRecommend) {
       min (Required) max (One)
     }
   }
-  output (MenuResultConcept)
+  output (MenuResultConcept)  
 }

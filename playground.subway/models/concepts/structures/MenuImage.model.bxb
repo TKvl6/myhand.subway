@@ -1,0 +1,11 @@
+structure (MenuImage) {
+  description (__DESCRIPTION__)
+  property (menu) {
+    type (MenuResultConcept)
+    min (Optional) max (One)
+  }
+  property (image){
+    type (Image)
+    min (Optional) max (One)
+  }
+}

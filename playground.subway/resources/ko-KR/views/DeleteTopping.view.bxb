@@ -1,7 +1,6 @@
 input-view {  
-  match: Image (this) {
+  match: MenuResultConcept (this) {
     to-input: DeleteTopping //This to-input will depend on which action you've implemented
-    
   }
 
   message {
@@ -9,9 +8,9 @@ input-view {
   }
 
   render {
-    image-picker (this) {
+    image-picker (img) {
       size (Small)
-      image-background-color (White)
+      image-background-color (Transparent)
     }
   }
 }

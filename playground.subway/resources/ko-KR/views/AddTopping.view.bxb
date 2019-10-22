@@ -11,7 +11,7 @@ input-view {
   render {
     image-picker (this) {
       size (Small)
-      image-background-color (White)
+      image-background-color (Transparent)
     }
   }
 }
