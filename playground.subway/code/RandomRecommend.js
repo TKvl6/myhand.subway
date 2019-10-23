@@ -5,19 +5,16 @@ module.exports.function = function randomRecommend (subwayName,searchKeyword) {
   let response = tool.getSandwichList();
   var result = [];
   var http = require('http');
+  var mat = http.getUrl('https://api.sheety.co/a590e2a1-d231-43c3-ac32-8fb031931e17',{format : "json"});
   var tag = http.getUrl('https://api.sheety.co/e543fd14-622d-46cf-a993-7654aa4a22be',{format : "json"});
   for(var i = 0; i < response.length; i++) {
     if(result.length == 4) break;
-    var roll = Math.ceil(Math.random() * 6);
-    if(roll == 5){
+    var roll = Math.ceil(Math.random() * 3);
+    if(roll == 2){
         var images = [];
-        console.log(111);
-        response[i].material = tool.divideMaterial(response[i].material,tag);
-        console.log(222);
+        response[i].material = tool.divideMaterial(response[i].material,mat);
         response[i].tag = tool.divideTag(response[i].tag);
-        console.log(333);
         response[i].detail = tool.tagsentence(response[i].material,tag);
-        console.log(444);
         for(j=0;j<response[i].material.length;j++){
           var no = response[i].material[j].index;
           var url = "https://github.com/TKvl6/myhand.subway/blob/master/playground.subway/assets/images/materialCard/"+ no + ".png?raw=true";

@@ -4,6 +4,7 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
   var console = require('console');
   let response;
   var http = require('http');
+  var mat = http.getUrl('https://api.sheety.co/a590e2a1-d231-43c3-ac32-8fb031931e17',{format : "json"});
   var tag = http.getUrl('https://api.sheety.co/e543fd14-622d-46cf-a993-7654aa4a22be',{format : "json"});
   
   var res = [];
@@ -12,9 +13,9 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
     
     for(i =0; i< response.length; i++){
       if(res.length == 4) break;
-      var roll = Math.ceil(Math.random() * 5);
-      if(roll == 4){
-        response[i].material = tool.divideMaterial(response[i].material,tag);
+      var roll = Math.ceil(Math.random() * 3);
+      if(roll == 2){
+        response[i].material = tool.divideMaterial(response[i].material,mat);
         response[i].tag = tool.divideTag(response[i].tag);
         response[i].detail = tool.tagsentence(response[i].material,tag);
         res.push(response[i]);
@@ -22,12 +23,12 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
     }
   }else if(inputKeyword == "든든"){
     response = tool.searchSandwichByCal(450,'high');
-    console.log(response)
+    console.log(response);
     for(i =0; i< response.length; i++){
       if(res.length == 4) break;
-      var roll = Math.ceil(Math.random() * 5);
-      if(roll == 4){
-        response[i].material = tool.divideMaterial(response[i].material,tag);
+      var roll = Math.ceil(Math.random() * 3);
+      if(roll == 2){
+        response[i].material = tool.divideMaterial(response[i].material,mat);
         response[i].tag = tool.divideTag(response[i].tag);
         response[i].detail = tool.tagsentence(response[i].material,tag);
         res.push(response[i]);
@@ -38,9 +39,9 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
     console.log(response)
     for(i =0; i< response.length; i++){
       if(res.length == 4) break;
-      var roll = Math.ceil(Math.random() * 5);
-      if(roll == 4){
-        response[i].material = tool.divideMaterial(response[i].material,tag);
+      var roll = Math.ceil(Math.random() * 3);
+      if(roll == 2){
+        response[i].material = tool.divideMaterial(response[i].material,mat);
         response[i].tag = tool.divideTag(response[i].tag);
         response[i].detail = tool.tagsentence(response[i].material,tag);
         res.push(response[i]);
