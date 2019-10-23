@@ -1,7 +1,7 @@
 train (t-kbqmh2j1ngkr4zk407o0rf83i) {
-  utterance ("[g:ConditionRecommend] (바삭바삭한)[v:InputKeyword:바삭] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
+  utterance ("[g:ConditionRecommend] 메뉴도감에서 (바삭바삭한)[v:InputKeyword:바삭] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1571560660840)
+  last-modified (1571818740070)
 }
 train (t-kg3fwcsiaekxm42rzabqec3k5) {
   utterance ("[g:RandomRecommend] 메뉴도감에서 (서브웨이)[v:SubwayName:서브웨이] 메뉴 (추천해줘)[v:SearchKeyword:검색]")

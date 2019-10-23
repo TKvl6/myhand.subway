@@ -1,5 +1,5 @@
 train (t-hbqyya7jq06sfujrdwlwnegl6) {
-  utterance ("[g:ConditionRecommend] (달콤한)[v:InputKeyword:달콤] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
+  utterance ("[g:ConditionRecommend] 메뉴도감에서 (달콤한)[v:InputKeyword:달콤] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1571154463163)
+  last-modified (1571818692918)
 }

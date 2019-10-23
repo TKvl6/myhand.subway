@@ -1,5 +1,6 @@
 train (t-g6a2lr91ydk02cwispn5gnln0) {
   utterance ([g:ShowOrder] 주문서 보여줘)
   plan (Y2BikMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhEEGSDc7IL/cvSkktYmAEQgYoBpIA)
-  last-modified (1571644083979)
+  enabled (false)
+  last-modified (1571818688302)
 }

@@ -4,7 +4,7 @@ result-view{
 	}
 	
 	message{
-		template ("이렇게 주문하면 됩니다.")
+		template ("이렇게 주문하세요.")
 	}
 	render {
 		layout {
@@ -33,9 +33,9 @@ result-view{
 		}
 	}
 	
-	conversation-drivers{
-		conversation-driver{
-			template ("주문 ㄱㄱ")
-		}
-	}
+	// conversation-drivers{
+	// 	conversation-driver{
+	// 		template ("주문 ㄱㄱ")
+	// 	}
+	// }
 }

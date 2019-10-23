@@ -110,11 +110,11 @@ result-view {
       }
     }
   }
-  conversation-drivers{
-    // if("value(menuResult.kname) == '햄'"){
-        conversation-driver("토핑 추가해줘")
-        conversation-driver("토핑 빼줘")
-    // }
-  }
+  // conversation-drivers{
+  //   // if("value(menuResult.kname) == '햄'"){
+  //       conversation-driver("토핑 추가해줘")
+  //       conversation-driver("토핑 빼줘")
+  //   // }
+  // }
 
 }

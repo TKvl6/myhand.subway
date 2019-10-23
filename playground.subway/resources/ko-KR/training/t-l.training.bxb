@@ -1,5 +1,5 @@
 train (t-lxjoux08dky3kh7kemp9y2w64) {
-  utterance ("[g:ConditionRecommend] (담백한)[v:InputKeyword:담백] 메뉴 (찾아줘)[v:SearchKeyword:검색]")
+  utterance ("[g:ConditionRecommend] 메뉴도감에서 (담백한)[v:InputKeyword:담백] 메뉴 (찾아줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1571809520781)
+  last-modified (1571818748999)
 }

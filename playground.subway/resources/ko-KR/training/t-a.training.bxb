@@ -1,5 +1,5 @@
 train (t-an9ljdvrs0qlhusfa2qitsdy5) {
-  utterance ("[g:RandomRecommend] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
+  utterance ("[g:RandomRecommend] 메뉴도감에서 메뉴 (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BmkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEKSDQIy8nODUpPzc3NT81IYJJDkglMTi5IzvFMry/OLUhiYGBiBmAFIMjKAAJQPAA==)
-  last-modified (1571807932038)
+  last-modified (1571818716639)
 }
