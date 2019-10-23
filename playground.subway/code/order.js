@@ -63,8 +63,8 @@ module.exports.function = function order(menu) {
       if(i == toppingName.length - 1) break; 
       str = str + ", ";
     }
-  }
-  
+  }else if(toppingName.length == 1) str = toppingName[0];  
+
   aJson = new Object();
   aJson.no = index++;
 
@@ -86,7 +86,7 @@ module.exports.function = function order(menu) {
       if(i == sauceName.length - 1) break; 
       str = str + ", ";
     }
-  }
+  }else if(sauceName.length == 1) str = sauceName[0]; 
   
   aJson = new Object();
   aJson.no = index++;
