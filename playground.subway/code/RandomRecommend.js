@@ -8,7 +8,7 @@ module.exports.function = function randomRecommend (subwayName,searchKeyword) {
   var tag = http.getUrl('https://api.sheety.co/e543fd14-622d-46cf-a993-7654aa4a22be',{format : "json"});
   for(var i = 0; i < response.length; i++) {
     if(result.length == 4) break;
-    var roll = Math.ceil(Math.random() * 8);
+    var roll = Math.ceil(Math.random() * 6);
     if(roll == 5){
         var images = [];
         console.log(111);

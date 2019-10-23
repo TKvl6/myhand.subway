@@ -12,8 +12,8 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
     
     for(i =0; i< response.length; i++){
       if(res.length == 4) break;
-      var roll = Math.ceil(Math.random() * 7);
-      if(roll == 5){
+      var roll = Math.ceil(Math.random() * 5);
+      if(roll == 4){
         response[i].material = tool.divideMaterial(response[i].material,tag);
         response[i].tag = tool.divideTag(response[i].tag);
         response[i].detail = tool.tagsentence(response[i].material,tag);
@@ -25,8 +25,8 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
     console.log(response)
     for(i =0; i< response.length; i++){
       if(res.length == 4) break;
-      var roll = Math.ceil(Math.random() * 7);
-      if(roll == 5){
+      var roll = Math.ceil(Math.random() * 5);
+      if(roll == 4){
         response[i].material = tool.divideMaterial(response[i].material,tag);
         response[i].tag = tool.divideTag(response[i].tag);
         response[i].detail = tool.tagsentence(response[i].material,tag);
@@ -38,8 +38,8 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
     console.log(response)
     for(i =0; i< response.length; i++){
       if(res.length == 4) break;
-      var roll = Math.ceil(Math.random() * 7);
-      if(roll == 5){
+      var roll = Math.ceil(Math.random() * 5);
+      if(roll == 4){
         response[i].material = tool.divideMaterial(response[i].material,tag);
         response[i].tag = tool.divideTag(response[i].tag);
         response[i].detail = tool.tagsentence(response[i].material,tag);
