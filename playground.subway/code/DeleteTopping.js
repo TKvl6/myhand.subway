@@ -13,7 +13,7 @@ module.exports.function = function multiSelectImage (menu) {
     var url = "https://github.com/TKvl6/myhand.subway/blob/master/playground.subway/assets/images/materialCard/"+ no + ".png?raw=true";
     images.push(url);
   }
-  return images;
+  return images;  
 
 
   for(j=0; j< result.material.length; j++){

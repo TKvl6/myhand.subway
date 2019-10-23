@@ -4,7 +4,7 @@ result-view{
 	}
 	
 	message{
-		template ("주문 페이지")
+		template ("이렇게 주문하면 됩니다.")
 	}
 	render {
 		layout {
