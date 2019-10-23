@@ -4,3 +4,8 @@ train (t-9kmugbw51wwx1d582evo92ywx) {
   enabled (false)
   last-modified (1571818711874)
 }
+train (t-9szvdms0tp4uwtck5t2hmw0up) {
+  utterance ("[g:RandomRecommend] 메뉴도감에서 (아무거나)[v:SubwayName:서브웨이] (추천해줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEKSDQIy8nODUpPzc3NT81IYJJDkglMTi5IzvFMry/OLUhhEkWVKk8oTK/0Sc1MZmBkYGZiAJAOQBkEIgIsCAA==)
+  last-modified (1571821798464)
+}

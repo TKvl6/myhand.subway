@@ -1,0 +1,5 @@
+train (t-nykaypbi6kak977vgf7su9qo1) {
+  utterance ("[g:RandomRecommend] (메뉴)[v:SubwayName:서브웨이] (궁금해)[v:SearchKeyword:검색]")
+  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEKSDQIy8nODUpPzc3NT81IYJJDkglMTi5IzvFMry/OLUhhEkWVKk8oTK/0Sc1MZmBkYGZiAJAOQBkEIgIsCAA==)
+  last-modified (1571821576765)
+}

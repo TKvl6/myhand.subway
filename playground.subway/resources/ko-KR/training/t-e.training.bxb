@@ -1,0 +1,5 @@
+train (t-e94p0r4qg1sgrezbh9dwm0bnm) {
+  utterance ("[g:ConditionRecommend] 메뉴도감에서 (매운)[v:InputKeyword:매콤] 거 (추천해줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
+  last-modified (1571822004315)
+}

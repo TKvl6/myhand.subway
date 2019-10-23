@@ -1,0 +1,10 @@
+train (t-onuk73rv1kxd9ndebyrhbi2t4) {
+  utterance ("[g:RandomRecommend] (메뉴)[v:SubwayName:서브웨이] (추천해줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEKSDQIy8nODUpPzc3NT81IYJJDkglMTi5IzvFMry/OLUhhEkWVKk8oTK/0Sc1MZmBkYGZiAJAOQBkEIgIsCAA==)
+  last-modified (1571823440760)
+}
+train (t-opjrhca1ijlg35mlzjtro0x9m) {
+  utterance ("[g:RandomRecommend] (메뉴)[v:SubwayName:서브웨이] (찾아줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEKSDQIy8nODUpPzc3NT81IYJJDkglMTi5IzvFMry/OLUhhEkWVKk8oTK/0Sc1MZmBkYGZiAJAOQBkEIgIsCAA==)
+  last-modified (1571823413582)
+}

@@ -1,0 +1,5 @@
+train (t-ujdpotdvd2bgaph9uqkd6efq7) {
+  utterance ("[g:ConditionRecommend] 맨유 도감에서 (달달한)[v:InputKeyword:달콤] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
+  last-modified (1571823857271)
+}
