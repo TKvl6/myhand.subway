@@ -11,7 +11,6 @@ module.exports.function = function randomRecommend (subwayName,searchKeyword) {
     if(roll == 5){
         var images = [];
         response[i].material = tool.divideMaterial(response[i].material);
-        console.log(response[i].material)
         response[i].tag = tool.divideTag(response[i].tag);
         response[i].detail = tool.tagsentence(response[i].material);
         for(j=0;j<response[i].material.length;j++){
