@@ -1,5 +1,5 @@
 train (t-0tuocaqknnqkiu2f8jsugapgy) {
-  utterance ("[g:RandomRecommend] 메뉴도감에서 (인기 있는)[v:SubwayName:인기] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
+  utterance ("[g:RandomRecommend]  (인기 있는)[v:SubwayName:인기] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEKSDQIy8nODUpPzc3NT81IYJJDkglMTi5IzvFMry/OLUhhEkWVKk8oTK/0Sc1MZmBkYGZiAJAOQBkEIgIsCAA==)
   last-modified (1571819078983)
 }

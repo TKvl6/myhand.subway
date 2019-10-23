@@ -5,17 +5,17 @@ train (t-y6wwtm655u43sr4gtepv65nid) {
   last-modified (1571808325830)
 }
 train (t-yla4n75ekd7pbl1r31n38zk86) {
-  utterance ("[g:RandomRecommend] 메뉴도감에서 (메뉴)[v:SubwayName:서브웨이] (보여줘)[v:SearchKeyword:검색]")
+  utterance ("[g:RandomRecommend]  (메뉴)[v:SubwayName:서브웨이] (보여줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEKSDQIy8nODUpPzc3NT81IYJJDkglMTi5IzvFMry/OLUhhEkWVKk8oTK/0Sc1MZmBkYGZiAJAOQBkEIgIsCAA==)
   last-modified (1571823041086)
 }
 train (t-yskuc7ejmkxukl3b4kp4vzujv) {
-  utterance ("[g:ConditionRecommend] 메뉴도감에서 (매콤한)[v:InputKeyword:매콤] 메뉴 (찾아줘)[v:SearchKeyword:검색]")
+  utterance ("[g:ConditionRecommend]  (매콤한)[v:InputKeyword:매콤] 메뉴 (찾아줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
   last-modified (1571818776882)
 }
 train (t-yvt3stxv7390rrkvjb8t37y01) {
-  utterance ("[g:ConditionRecommend] 메뉴도감에서 (매콤한)[v:InputKeyword:매콤] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
+  utterance ("[g:ConditionRecommend]  (매콤한)[v:InputKeyword:매콤] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
   last-modified (1571818782694)
 }

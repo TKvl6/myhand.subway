@@ -1,21 +1,21 @@
 capsule-info {
-  display-name (메뉴도감)
+  display-name (선택장인)
   developer-name (SSAFY MH)
-  icon-asset (/images/logo6.png)
+  icon-asset (/images/logo7.png)
   description ("서브웨이 메뉴 조합을 추천해줍니다.")
-  website-url (https://blog.naver.com/chang1428)
+  website-url (https://blog.naver.com/no1428)
   terms-url (https://example.com/terms-of-use/)
   privacy-policy-url (https://github.com/TKvl6/myhand.subway/blob/master/playground.subway/privacy-policy.md)
   search-keywords{
     keyword (서브웨이)
     keyword (메뉴추천)
   }
-  dispatch-name (메뉴도감)
+  dispatch-name (선택장인)
   dispatch-aliases{
-    alias (매뉴도감)
-    alias (메뉴두감)
-    alias (맨유 도감)
-    alias (맨유녹음)
-    alias (맨유도감)
+    alias (선택 장인)
+    alias (선택 장애)
+    alias (선택 창)
+    alias (선택 장면)
+    alias (선택 상)
   }
 }
