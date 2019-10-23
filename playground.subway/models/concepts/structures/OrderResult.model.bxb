@@ -1,0 +1,11 @@
+structure (OrderResult) {
+  description (__DESCRIPTION__)
+  property (kname) {
+    type (Kname)
+    min (Optional) max (One)
+  }
+  property (orders) {
+    type (Orders)
+    min (Optional) max (One)
+  }
+}

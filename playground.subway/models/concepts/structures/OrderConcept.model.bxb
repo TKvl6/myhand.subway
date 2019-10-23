@@ -1,0 +1,7 @@
+structure (OrderConcept) {
+  description (__DESCRIPTION__)
+  property (orders) {
+    type (Orders)
+    min (Optional) max (Many)
+  }
+}

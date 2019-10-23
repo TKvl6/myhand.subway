@@ -1,5 +1,5 @@
 result-view{
-	match : MenuResultConcept (menuResult){
+	match : OrderConcept (this){
 		from-output : order
 	}
 	
@@ -8,31 +8,17 @@ result-view{
 	}
 	render {
 		layout {
-			section {
-				content {
-					image {
-						url ("https://ipfs.io/ipfs/QmReVM7335RJNrfqStGqFiNXS3npqj9QJR1Fj7R2JnhjQf/sandwich/#{value(menuResult.no)}.jpg")
-					}
-					single-line {
-						text {
-							style (Title_M)
-							value ("#{value(menuResult.kname)}")
-						}
-					}
-				}
-			}
-			
 			section{
 				title("주문 순서")
 				content{
-					for-each (menuResult.material){
+					for-each (orders){
 						as(item){
 							cell-card{
 								slot2{
 									content{
 										//primary("step #{item+1}")
 										primary("#{value(item.no)} 단계")
-										secondary("#{value(item.mt)}")
+										secondary("#{value(item.order)}")
 									}
 								}
 							}
