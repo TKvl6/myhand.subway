@@ -61,12 +61,13 @@ module.exports.function = function order(menu) {
       str = str + toppingName[i]
       console.log(toppingName[i] + "/" + str);
       if(i == toppingName.length - 1) break; 
-      str = str + ",";
+      str = str + ", ";
     }
-  }
-  
+  }else if(toppingName.length == 1) str = toppingName[0];  
+
   aJson = new Object();
   aJson.no = index++;
+
   console.log(str);
   if(str.length == 0){
     str = "토핑 추가는 안할게요.";
@@ -74,7 +75,7 @@ module.exports.function = function order(menu) {
   }else{
     aJson.order = "토핑은 " + str + "(으)로 해주시고,";
   }
-  
+
   orders.push(aJson);
 
 
@@ -83,9 +84,9 @@ module.exports.function = function order(menu) {
     for(i=0;i<sauceName.length;i++){
       str = str + sauceName[i]
       if(i == sauceName.length - 1) break; 
-      str = str + ",";
+      str = str + ", ";
     }
-  }
+  }else if(sauceName.length == 1) str = sauceName[0]; 
   
   aJson = new Object();
   aJson.no = index++;

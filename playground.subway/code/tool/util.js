@@ -68,11 +68,10 @@ module.exports.searchSandwichByTag = function(tag){
   }
   return result;
 }
-module.exports.divideMaterial = function(m){
+module.exports.divideMaterial = function(m,tag){
   var aJsonArray = new Array();
   var li = m.split(",");
   var http = require('http');
-  var tag = http.getUrl('https://api.sheety.co/a590e2a1-d231-43c3-ac32-8fb031931e17',{format : "json"});
   var index = 1;
   li.forEach(function(el){
     var aJson = new Object();
@@ -104,10 +103,10 @@ module.exports.divideTag = function(tag){
   }
   return str;
 }
-module.exports.tagsentence = function(material) {
+module.exports.tagsentence = function(material,tag) {
   var http = require('http');
   var console = require('console');
-  var tag = http.getUrl('https://api.sheety.co/e543fd14-622d-46cf-a993-7654aa4a22be',{format : "json"});
+  
   var res = [];
   var regex = "0-9";
   for(i = 0; i < material.length; i++){
@@ -175,9 +174,8 @@ module.exports.tasteTag = function(index){
   return maxTag;
 }
 
-module.exports.getNameByNo = function(no){
+module.exports.getNameByNo = function(no,topping){
   var http = require('http');
-  var topping = http.getUrl('https://api.sheety.co/a590e2a1-d231-43c3-ac32-8fb031931e17',{format : "json"});
   for(i=0;i<topping.length;i++){
     if(no == topping[i].no){
       return topping[i].material;
