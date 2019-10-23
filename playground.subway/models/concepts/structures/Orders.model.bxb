@@ -1,0 +1,7 @@
+structure (Orders) {
+  description (__DESCRIPTION__)
+  property (order) {
+    type (Material)
+    min (Optional) max (One)
+  }
+}
