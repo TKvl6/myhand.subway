@@ -95,7 +95,7 @@ result-view {
 											//was to allow an ID as input to SelectItem and use `this.id` in the intent
 											intent {
 												goal {
-													order
+													MenuFind
 													@context (Continuation) { Order }
 												}
 											
