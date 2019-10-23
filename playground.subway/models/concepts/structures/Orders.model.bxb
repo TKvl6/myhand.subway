@@ -1,5 +1,9 @@
 structure (Orders) {
   description (__DESCRIPTION__)
+  property (no){
+    type (NoConcept)
+    min (Optional) max (One)
+  }
   property (order) {
     type (Material)
     min (Optional) max (One)

@@ -17,7 +17,7 @@ result-view{
 								slot2{
 									content{
 										//primary("step #{item+1}")
-										primary("#{value(item)} 단계")
+										primary("#{value(item.no)} 단계")
 										secondary("#{value(item.order)}")
 									}
 								}
