@@ -72,7 +72,7 @@ module.exports.function = function order(menu) {
     str = "토핑 추가는 안할게요.";
     aJson.order = str;
   }else{
-    aJson.order = "토핑은 " + str + "로 해주시고,";
+    aJson.order = "토핑은 " + str + "(으)로 해주시고,";
   }
   
   orders.push(aJson);
@@ -89,7 +89,7 @@ module.exports.function = function order(menu) {
   
   aJson = new Object();
   aJson.no = index++;
-  aJson.order = "야채는 전부 넣고, 소스는 "+ str + "로 해주시면 되요~~";
+  aJson.order = "야채는 전부 넣고, 소스는 "+ str + "(으)로 해주시면 되요~~";
   orders.push(aJson);
   console.log(orders);  
   result.orders = orders;

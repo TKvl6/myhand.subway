@@ -20,6 +20,7 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
     }
   }else if(inputKeyword == "든든"){
     response = tool.searchSandwichByCal(450,'high');
+    console.log(response);
     for(i =0; i< response.length; i++){
       if(res.length == 4) break;
       var roll = Math.ceil(Math.random() * 7);

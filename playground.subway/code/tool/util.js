@@ -38,6 +38,7 @@ module.exports.searchSandwichByMaterial = function(mName){
 }
 module.exports.searchSandwichByCal = function(cal, standard){ 
   // standard : cal보다 높은지 낮은지
+  console.log(cal);
   let sandwich = db.getSandwich();
   let result = [];
   if(standard == 'high'){
@@ -54,6 +55,7 @@ module.exports.searchSandwichByCal = function(cal, standard){
       }
     }
   }
+  return result;
 }
 
 module.exports.searchSandwichByTag = function(tag){ 
@@ -137,7 +139,7 @@ module.exports.tagsentence = function(material) {
       }
     }
   }
-  var str =  ["환상적인","환상적인","환상적인","환상적인"];
+  var str =  ["환상적인","누구나 좋아할","절묘하게","오묘하게"];
   var roll = Math.ceil(Math.random() * str.length-1);
   var maxScore = 0;
   var maxTag = "";
