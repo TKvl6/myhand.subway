@@ -1,5 +1,5 @@
 train (t-zq1lnyqeqs7l15o6d15033x62) {
-  utterance ("[g:ConditionRecommend] (다이어트용)[v:InputKeyword:다이어트] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
+  utterance ("[g:ConditionRecommend] 메뉴도감에서 (다이어트용)[v:InputKeyword:다이어트] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1571152629542)
+  last-modified (1571818786142)
 }

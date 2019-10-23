@@ -1,5 +1,10 @@
 train (t-f65t5hkyyuzktgg0ofk7yy5uu) {
-  utterance ("[g:ConditionRecommend] (부드러운)[v:InputKeyword:부드러운] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
+  utterance ("[g:ConditionRecommend] 메뉴도감에서 (부드러운)[v:InputKeyword:부드러운] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1571561632087)
+  last-modified (1571818670550)
+}
+train (t-fc3jmjo2nj7p7mxcij18amtt2) {
+  utterance ("[g:MenuFind] 메뉴도감에서 (스테이크)[v:NameConcept] 들어간 거 (추천해줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhEEaTdcvMS2EQQxL0S8xNhSmWQBIPTk0sSs7wTq0szy9KYWBmYGRgApIMQBoEIQAuCgA=)
+  last-modified (1571818826119)
 }

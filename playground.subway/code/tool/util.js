@@ -169,7 +169,7 @@ module.exports.tasteTag = function(index){
   else if(index == 2) maxTag = "달콤한";
   else if(index == 3) maxTag = "짭짤한";
   else if(index == 4) maxTag = "새콤한"
-  else if(index == 5) maxTag = "육즙의"
+  else if(index == 5) maxTag = "육즙 가득한"
   else if(index == 6) maxTag = "고소한"
 
   return maxTag;
