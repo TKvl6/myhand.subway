@@ -4,7 +4,8 @@ module.exports.function = function multiSelectImage (menu) {
   var util = require('tool/util.js')
   var result = menu;
   var tmp = [];
-
+  var http = require('http');
+  var tag = http.getUrl('https://api.sheety.co/a590e2a1-d231-43c3-ac32-8fb031931e17',{format : "json"});
   var images = [];
   var material = menu.material;
 
@@ -24,7 +25,7 @@ module.exports.function = function multiSelectImage (menu) {
       
       console.log(image);
       console.log(result)
-      var name = util.getNameByNo(image);
+      var name = util.getNameByNo(image,tag);
       if(textLib.fuzzyMatch(result.material[j].mt,name)){
         result.material.splice(j);
         console.log(result)

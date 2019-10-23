@@ -1,7 +1,8 @@
 train (t-y6wwtm655u43sr4gtepv65nid) {
   utterance ("[g:DeleteTopping] 토핑 (빼)[v:AddSub:빼]줘")
   plan (Y2BmkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkECSdUnNSS1JDckvKMjMS2cQRJJxTEkJLk1iYGJgBGIGIMnIAAJQPgA=)
-  last-modified (1571638543904)
+  enabled (false)
+  last-modified (1571808325830)
 }
 train (t-yskuc7ejmkxukl3b4kp4vzujv) {
   utterance ("[g:ConditionRecommend] (매콤한)[v:InputKeyword:매콤] 메뉴 (찾아줘)[v:SearchKeyword:검색]")

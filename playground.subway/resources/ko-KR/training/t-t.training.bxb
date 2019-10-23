@@ -1,5 +1,5 @@
 train (t-tdtrwrnpxyvtxz2wl7tupma0r) {
   utterance ("[g:ConditionRecommend] (든든한)[v:InputKeyword:든든] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1571155902052)
+  last-modified (1571808362734)
 }

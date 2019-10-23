@@ -61,13 +61,13 @@ module.exports.function = function order(menu) {
       str = str + toppingName[i]
       console.log(toppingName[i] + "/" + str);
       if(i == toppingName.length - 1) break; 
-      str = str + ",";
+      str = str + ", ";
     }
   }
   
   aJson = new Object();
   aJson.no = index++;
-  
+  console.log(str.length)
   aJson.order = "토핑은 " + str + "로 해주시고,";
   orders.push(aJson);
 
@@ -77,7 +77,7 @@ module.exports.function = function order(menu) {
     for(i=0;i<sauceName.length;i++){
       str = str + sauceName[i]
       if(i == sauceName.length - 1) break; 
-      str = str + ",";
+      str = str + ", ";
     }
   }
   
