@@ -1,7 +1,7 @@
 capsule {
   id (myhand.fmc)
   format (3)
-  version (0.1.5)
+  version (0.1.6)
   targets {
     target (bixby-mobile-ko-KR)
   }

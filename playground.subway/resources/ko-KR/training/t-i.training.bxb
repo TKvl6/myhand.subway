@@ -8,3 +8,8 @@ train (t-id06kdns80j5fvel8cinsn0oc) {
   plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEKSDQIy8nODUpPzc3NT81IYJJDkglMTi5IzvFMry/OLUhhEkWVKk8oTK/0Sc1MZmBkYGZiAJAOQBkEIgIsCAA==)
   last-modified (1571825971901)
 }
+train (t-id2y99gas185gw67px4othioq) {
+  utterance ("[g:MenuFind] 선택장인에서 서브웨이 (인기메뉴)[v:SubwayName:인기] (추천해줘)[v:SearchKeyword:검색]")
+  plan (Y2BlkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhEEaTdcvMS2EQQxL0S8xNhSmWQBIPTk0sSs7wTq0szy9KYRBFlilNKk+sBOljYGZgZGACkgxAGgQhACTKzMDCwAAA)
+  last-modified (1571992337474)
+}

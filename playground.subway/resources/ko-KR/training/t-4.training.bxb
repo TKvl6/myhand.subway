@@ -1,5 +1,10 @@
+train (t-40iglshn5j5jrc4168arg3d9a) {
+  utterance ("[g:RandomRecommend] (인기메뉴)[v:SubwayName:인기] 중 (추천좀)[v:SearchKeyword:검색]")
+  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEKSDQIy8nODUpPzc3NT81IYJJDkglMTi5IzvFMry/OLUhhEkWVKk8oTK/0Sc1MZmBkYGZiAJAOQBkEIgIsCAA==)
+  last-modified (1571989004120)
+}
 train (t-4ybzc1v1dhiaaqdcinb1vsd2f) {
-  utterance ("[g:ConditionRecommend]  (고소한)[v:InputKeyword:고소] 메뉴 (보여줘)[v:SearchKeyword:검색]")
+  utterance ("[g:ConditionRecommend] (고소한)[v:InputKeyword:고소] 메뉴 (보여줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1571818701088)
+  last-modified (1571987404653)
 }

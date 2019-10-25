@@ -1,3 +1,8 @@
+train (t-g15snduuko7b806yeljbc5vg1) {
+  utterance ("[g:RandomRecommend] 선택장인에서 (맛있는 메뉴)[v:SubwayName:인기]들 좀 (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEKSDQIy8nODUpPzc3NT81IYJJDkglMTi5IzvFMry/OLUhhEkWVKk8oTK/0Sc1MZmBkYGZiAJAOQBkEIgIsCAA==)
+  last-modified (1571988667335)
+}
 train (t-g6a2lr91ydk02cwispn5gnln0) {
   utterance ([g:ShowOrder] 주문서 보여줘)
   plan (Y2BikMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhEEGSDc7IL/cvSkktYmAEQgYoBpIA)
