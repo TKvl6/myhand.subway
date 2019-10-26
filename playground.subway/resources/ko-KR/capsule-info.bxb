@@ -4,7 +4,6 @@ capsule-info {
   icon-asset (/images/logo7.png)
   description ("서브웨이 메뉴 조합을 추천해줍니다.")
   website-url (https://blog.naver.com/no1428)
-  terms-url (https://example.com/terms-of-use/)
   privacy-policy-url (https://github.com/TKvl6/myhand.subway/blob/master/playground.subway/privacy-policy.md)
   search-keywords{
     keyword (서브웨이)
