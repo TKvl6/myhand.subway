@@ -52,9 +52,5 @@ structure (MenuResultConcept) {
     type (Tag)
     min (Optional) max (One)
   }
-  property (img){
-    type (Image)
-    min (Optional) max (Many)
-  }
 
 }

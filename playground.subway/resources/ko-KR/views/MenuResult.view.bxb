@@ -64,19 +64,13 @@ result-view {
             }
             for-each (menuResult.menus.material) {
               as (item) {
-                // single-line {
-                //   text {
-                //     style (Detail_M)
-                //     value ("#{value(item.mt)}")
-                //   }
-                // }
                 hbox {
                   content {
                       vbox {
                       content {
                           single-line{
                             image{
-                              url ("#{value(item.img)}")
+                              url ("https://raw.githubusercontent.com/TKvl6/myhand.subway/master/materialCard/#{value(item.index)}.png")
                             }
                           }
                       }
