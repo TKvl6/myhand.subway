@@ -76,7 +76,7 @@ result-view {
                       content {
                           single-line{
                             image{
-                              url ("https://github.com/TKvl6/myhand.subway/blob/master/playground.subway/assets/images/materialCard/#{value(item.index)}.png?raw=true")
+                              url ("https://github.com/TKvl6/myhand.subway/blob/master/materialCard/#{value(item.index)}.png?raw=true")
                             }
                           }
                       }
