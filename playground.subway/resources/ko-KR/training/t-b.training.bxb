@@ -1,3 +1,8 @@
+train (t-bedgvjnkoig6l5zz3td42wlh7) {
+  utterance ("[g:RandomRecommend] (아무메뉴)[v:SubwayName:서브웨이]나 (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572169860235)
+}
 train (t-bjj5jcfb70zlmb8jaent6fn3g) {
   utterance ("[g:MenuFind] 선택장인에서 (쉬림프)[v:NameConcept] 메뉴들 (보여줘라)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)

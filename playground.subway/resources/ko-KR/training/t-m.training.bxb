@@ -13,3 +13,8 @@ train (t-mfuwa6nhgv9589mu5gtd5pc1g) {
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
   last-modified (1572158833245)
 }
+train (t-mrimmy8erp7x9py8tmfk7kk55) {
+  utterance ("[g:MenuFind] (풀드포크)[v:NameConcept] (찾아줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572168960533)
+}

@@ -76,7 +76,7 @@ result-view {
                       content {
                           single-line{
                             image{
-                              url ("#{value(item.img)}")
+                              url ("#{value(item.img.url)}")
                             }
                           }
                       }
