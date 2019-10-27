@@ -1,0 +1,5 @@
+train (t-c7xr3xq5pgg7b8c3ogdpnden9) {
+  utterance ("[g:myhand.fmc.RandomRecommend] 가장 (맛있는 메뉴)[v:myhand.fmc.SubwayName:인기] (보여줘)[v:myhand.fmc.SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572180828600)
+}

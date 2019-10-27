@@ -3,3 +3,8 @@ train (t-xn3fy5ap2t8kcghzrlpg81k42) {
   plan (Y2BlkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthkEQS9MxLzilNSYWpF0OS8kvMTXXOz0tOLShhkEASD05NLEqG28DCwMjAxMAMpBmALAiEASQ5AA==)
   last-modified (1572158939157)
 }
+train (t-xq6xvly6khyqsu7fy5tk4x3nh) {
+  utterance ("[g:ConditionRecommend] (매콤한)[v:InputKeyword:매콤] 메뉴 좀 (알려줘봐)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572180601708)
+}

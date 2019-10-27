@@ -1,3 +1,8 @@
+train (t-b7u7kffqx1etwwop5azbs1cjy) {
+  utterance ("[g:myhand.fmc.RandomRecommend] 선택장인 (베스트)[v:myhand.fmc.SubwayName:인기] (알려줘)[v:myhand.fmc.SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572181860689)
+}
 train (t-bedgvjnkoig6l5zz3td42wlh7) {
   utterance ("[g:RandomRecommend] (아무메뉴)[v:SubwayName:서브웨이]나 (알려줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)

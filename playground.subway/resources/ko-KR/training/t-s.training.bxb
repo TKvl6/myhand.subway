@@ -1,0 +1,5 @@
+train (t-so4f0zie9654xz1ypprl204mn) {
+  utterance ("[g:ConditionRecommend] (고열량)[v:InputKeyword:든든] 메뉴 (추천좀)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572180775825)
+}

@@ -1,3 +1,13 @@
+train (t-88slwreb8densh5ngbw8g5otq) {
+  utterance ("[g:MenuFind] (에그마요)[v:NameConcept] (추천해줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572180249764)
+}
+train (t-8e78elblzod194mnuxhbqhx9z) {
+  utterance ("[g:MenuFind] (에그마요)[v:NameConcept] (베이스의 메뉴)[v:IncludeKeyword:포함] (추천해줘)[v:SearchKeyword:검색]")
+  plan (Y2BlkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthkEQS9MxLzilNSYWpF0OS8kvMTXXOz0tOLShhkEASD05NLEqG28DCwMjAxMAMpBmALAiEASQ5AA==)
+  last-modified (1572180425881)
+}
 train (t-8l4eo349ahszafdjy64a0j4d5) {
   utterance ("[g:MenuFind] 선택장인에서 (치킨)[v:NameConcept] (들어간거)[v:IncludeKeyword:포함] (보여줘)[v:SearchKeyword:검색]")
   plan (Y2BlkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthkEQS9MxLzilNSYWpF0OS8kvMTXXOz0tOLShhkEASD05NLEqG28DCwMjAxMAMpBmALAiEASQ5AA==)
@@ -7,4 +17,9 @@ train (t-8t49rnghw7y2luxtc9aifky94) {
   utterance ("[g:RandomRecommend] (서브웨이)[v:SubwayName:서브웨이] 메뉴 (추천)[v:SearchKeyword:검색] 부탁할게")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
   last-modified (1572158583804)
+}
+train (t-8y4e9rfn3ykoz5wyv0rnzrtft) {
+  utterance ("[g:myhand.fmc.RandomRecommend] 선택장인에서 젤 (잘나가는)[v:myhand.fmc.SubwayName:인기]거 (알려줘)[v:myhand.fmc.SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572181557478)
 }
