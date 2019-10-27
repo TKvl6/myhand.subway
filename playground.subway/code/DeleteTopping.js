@@ -16,15 +16,12 @@ module.exports.function = function multiSelectImage (menu) {
   }
   return images;  
 
-
   for(j=0; j< result.material.length; j++){
     for(i=0; i< images.length; i++){
       var imageArray = images[i].url.split(".");
       var temp = imageArray[imageArray.length-2].split("/");
       var image = temp[temp.length-1];
       
-      console.log(image);
-      console.log(result)
       var name = util.getNameByNo(image,tag);
       if(textLib.fuzzyMatch(result.material[j].mt,name)){
         result.material.splice(j);
@@ -32,6 +29,5 @@ module.exports.function = function multiSelectImage (menu) {
       }
     }
   }
-  console.log(result);
   return result
 }

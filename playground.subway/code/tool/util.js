@@ -1,48 +1,16 @@
 var db = require('tool/getDB.js');
 var textLib = require('textLib');
 var console = require('console');
+var http = require('http');
 
-module.exports.searchAllergyByName = function(aName){
-  var allergy = db.getAllergy();
-  for(i = 0; i < allergy.length; i++){
-    if(textLib.fuzzyMatch(aName,allergy[i].kname)){
-      return allergy[i].material; // 알러지 재료가 들어간 제품들을 return
-    }
-  }
-  return null;
-}
 module.exports.getSandwichList = function(){
   let sandwich = db.getSandwich();
   return sandwich;
 }
-module.exports.searchSandwichByName = function(kName){
-  let sandwich = db.getSandwich();
-  let result = [];
-  for(i = 0; i < sandwich.length; i++){
-    if(textLib.fuzzyMatch(sandwich[i].kname, kName)){
-      result.push(sandwich[i]);
-    }
-  }
-  return result;
-}
-module.exports.searchSandwichByMaterial = function(mName){
-  let sandwich = db.getSandwich();
-  let result = [];
-  for(i = 0; i < sandwich.length; i++){
-    if(textLib.fuzzyMatch(sandwich[i].material,mName)){
-      // 제품의 재료 중에 검색한 재료가 존재하는 list를 return
-      result.push(sandwich[i]);
-    }
-  }
-  return result;
-}
 module.exports.searchSandwichByCal = function(cal, standard){ 
-  // standard : cal보다 높은지 낮은지
-  console.log(cal);
   let sandwich = db.getSandwich();
   let result = [];
   if(standard == 'high'){
-    // 제품의 재료 중에 검색한 재료가 존재하는 list를 return
     for(i = 0; i < sandwich.length; i++){
       if(sandwich[i].cal > cal){
         result.push(sandwich[i]);
@@ -71,10 +39,10 @@ module.exports.searchSandwichByTag = function(tag){
 module.exports.divideMaterial = function(m,tag){
   var aJsonArray = new Array();
   var li = m.split(",");
-  var http = require('http');
   var index = 1;
   li.forEach(function(el){
     var aJson = new Object();
+    var image = new Object();
     aJson.no = index++;
     var len = el.split(" ").length;
     var mtArr = "";
@@ -84,14 +52,16 @@ module.exports.divideMaterial = function(m,tag){
       mtArr = mtArr.join(" ");
     } 
     else if(len == 1) mtArr = el
-    console.log(tag);
     for(i=0;i<tag.length;i++){
-      if(textLib.fuzzyMatch(tag[i].material,mtArr, -1)){
+      if(textLib.fuzzyMatch(tag[i].material,mtArr)){
         aJson.index = tag[i].no;
         break;
       }
     }
+    var url = "https://raw.githubusercontent.com/TKvl6/myhand.subway/master/materialCard/"+ aJson.index + ".png";
+    image.url = url;
     aJson.mt = el;
+    aJson.img = image;
     aJsonArray.push(aJson);
   })
   return aJsonArray;
@@ -105,11 +75,7 @@ module.exports.divideTag = function(tag){
   return str;
 }
 module.exports.tagsentence = function(material,tag) {
-  var http = require('http');
-  var console = require('console');
-  
   var res = [];
-  var regex = "0-9";
   for(i = 0; i < material.length; i++){
     var len = material[i].mt.split(" ").length;
     var mtArr = "";
@@ -176,7 +142,6 @@ module.exports.tasteTag = function(index){
 }
 
 module.exports.getNameByNo = function(no,topping){
-  var http = require('http');
   for(i=0;i<topping.length;i++){
     if(no == topping[i].no){
       return topping[i].material;

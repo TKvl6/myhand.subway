@@ -12,4 +12,8 @@ structure (Materials) {
     type (Material)
     min (Optional) max (One)
   }
+   property (img){
+    type (Image)
+    min (Optional) max (One)
+  }
 }
