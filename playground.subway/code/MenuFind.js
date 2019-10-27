@@ -18,6 +18,7 @@ module.exports.function = function menuFind (menu,includeKeyword,searchKeyword) 
       menus.push(response[i])
     }
   }
+  console.log(menus)
   return {
     menus : menus,
     keyword : menu+"(이)가 포함된 "
