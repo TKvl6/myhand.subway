@@ -38,7 +38,7 @@ module.exports.function = function randomRecommend (subwayName,searchKeyword) {
     var flag = true;
     while(cnt < 5){
       var num;
-      num = parseInt(Math.random() * response.length) + 1;
+      num = parseInt(Math.random() * response.length);
       for(var i = 0; i < cnt; i++){
         if(randomMenu[i] == num) flag = false;
       }
