@@ -1,108 +1,100 @@
-// result-view {
-//   match {
-//     MenuResultConcept (menuResult)
-//   }
-//   message {
-//     // 결과 화면에 보여줄 dialog를 설정합니다.
-
-//      template("#{value(menuResult.kname)}")
-
-//   }
-//   render {
-//       layout {
-//         section {
-//           content {
-//             image {
-//               url ("https://ipfs.io/ipfs/QmReVM7335RJNrfqStGqFiNXS3npqj9QJR1Fj7R2JnhjQf/sandwich/#{value(menuResult.no)}.jpg")
-//               // url ("https://ipfs.io/ipfs/QmPoDJokUJ6AjcgXypDuy8ZqsSWWs17gFzqcM8JWmWKp5p/%5Csandwich%5C#{value(menuResult.no)}.jpg")
-//             }
-//             single-line {
-//               text {
-//                 style (Title_M)
-//                 value ("#{value(menuResult.detail)}")
-//               }
-//             }
-//             single-line {
-//               text{
-//                 style (Detail_M)
-//                 value ("#{value(menuResult.tag)}")
-//               }
-//             }
-//           }
-//         }
-//         section{
-//           content{
-//             single-line {
-//               text {
-//                 style (Title_S)
-//                 value ("재료")
-//               }
-//             }
-//             for-each (menuResult.material) {
-//               as (item) {
-//                 // single-line {
-//                 //   text {
-//                 //     style (Detail_M)
-//                 //     value ("#{value(item.mt)}")
-//                 //   }
-//                 // }
-//                 hbox {
-//                   content {
-//                       vbox {
-//                       content {
-//                           single-line{
-//                             image{
-//                               url ("https://raw.githubusercontent.com/TKvl6/myhand.subway/master/materialCard/#{value(item.index)}.png")
-//                             }
-//                           }
-//                       }
-//                       }
-//                       vbox {
-//                       content {
-//                           single-line {
-//                               text {
-//                                   style (Detail_M)
-//                                   value ("#{value(item.mt)}")
-//                               }
-//                           }
-//                       }
-//                       }
-//                   }
-//                 }
-//               }
-//             }
-            
+result-view {
+  match {
+    MenuResultConcept (menuResult)
+  }
+  message {
+    // 결과 화면에 보여줄 dialog를 설정합니다.
+     template("#{value(menuResult.kname)}")
+  }
+  render {
+      layout {
+        section {
+          content {
+            image {
+              url ("https://ipfs.io/ipfs/QmReVM7335RJNrfqStGqFiNXS3npqj9QJR1Fj7R2JnhjQf/sandwich/#{value(menuResult.no)}.jpg")
+              // url ("https://ipfs.io/ipfs/QmPoDJokUJ6AjcgXypDuy8ZqsSWWs17gFzqcM8JWmWKp5p/%5Csandwich%5C#{value(menuResult.no)}.jpg")
+            }
+            single-line {
+              text {
+                style (Title_M)
+                value ("#{value(menuResult.detail)}")
+              }
+            }
+            single-line {
+              text{
+                style (Detail_M)
+                value ("#{value(menuResult.tag)}")
+              }
+            }
+          }
+        }
+        section{
+          content{
+            single-line {
+              text {
+                style (Title_S)
+                value ("재료")
+              }
+            }
+            for-each (menuResult.material) {
+              as (item) {
+                // single-line {
+                //   text {
+                //     style (Detail_M)
+                //     value ("#{value(item.mt)}")
+                //   }
+                // }
+                hbox {
+                  content {
+                      vbox {
+                      content {
+                          single-line{
+                            image{
+                              url ("#{value(item.img.url)}")
+                            }
+                          }
+                      }
+                      }
+                      vbox {
+                      content {
+                          single-line {
+                              text {
+                                  style (Detail_M)
+                                  value ("#{value(item.mt)}")
+                              }
+                          }
+                      }
+                      }
+                  }
+                }
+              }
+            }
+            input-cell {
               
+              label ("")
+              value ("주문하기")
+              on-click {
+                //This intent relies on searchTerm matching the item which is not a good practice, a better approach
+                //was to allow an ID as input to SelectItem and use `this.id` in the intent
+                intent {
+                  goal {
+                    order
+                    @context (Continuation) { Order }
+                  }
+                
+                }
+              }
+            }
+          }
+        }
 
-              
-// 									input-cell {
-                    
-// 										label ("")
-// 										value ("주문하기")
-// 										on-click {
-// 											//This intent relies on searchTerm matching the item which is not a good practice, a better approach
-// 											//was to allow an ID as input to SelectItem and use `this.id` in the intent
-// 											intent {
-// 												goal {
-// 													order
-// 													@context (Continuation) { Order }
-// 												}
-											
-// 											}
-// 										}
-									
-//                   }
-
-//           }
-//         }
-
-//       }
-//     }
-//   }
-//   // conversation-drivers{
-//   //   // if("value(menuResult.kname) == '햄'"){
-//   //       conversation-driver("토핑 추가해줘")
-//   //       conversation-driver("토핑 빼줘")
-//   //   // }
-//   // }
+      }
+    }
+  }
+  // conversation-drivers{
+  //   // if("value(menuResult.kname) == '햄'"){
+  //       conversation-driver("토핑 추가해줘")
+  //       conversation-driver("토핑 빼줘")
+  //   // }
+  // }
 

@@ -1,16 +1,16 @@
-input-view {  
-  match: MenuResultConcept (this) {
-    to-input: DeleteTopping //This to-input will depend on which action you've implemented
-  }
+// input-view {  
+//   match: MenuResultConcept (this) {
+//     to-input: DeleteTopping //This to-input will depend on which action you've implemented
+//   }
 
-  message {
-    template (토핑 빼줘~)
-  }
+//   message {
+//     template (토핑 빼줘~)
+//   }
 
-  render {
-    image-picker (img) {
-      size (Small)
-      image-background-color (Transparent)
-    }
-  }
-}
+//   render {
+//     image-picker (img) {
+//       size (Small)
+//       image-background-color (Transparent)
+//     }
+//   }
+// }
