@@ -1,0 +1,11 @@
+structure (MenuWithKeyword) {
+  description (__DESCRIPTION__)
+  property (menus) {
+    type (MenuResultConcept)
+    min (Optional) max (Many)
+  }
+    property (keyword){
+    type (Keyword)
+    min (Optional) max (One)
+  }
+}

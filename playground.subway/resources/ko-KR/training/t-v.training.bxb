@@ -1,5 +1,10 @@
+train (t-vfst6nilvkvq8uhk10l0g53ec) {
+  utterance ("[g:RandomRecommend] 선택장인에서 (인기 메뉴)[v:SubwayName:인기]를 (추천해봐)[v:SearchKeyword:검색] ")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572152922013)
+}
 train (t-vojf2fvhygnq41vgfa040z61r) {
   utterance ("[g:MenuFind]  (에그마요)[v:NameConcept] (찾아줘)[v:SearchKeyword:검색]")
-  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhEEaTdcvMS2EQQxL0S8xNhSmWQBIPTk0sSs7wTq0szy9KYWBmYGRgApIMQBoEIQAuCgA=)
-  last-modified (1571818771534)
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572158931701)
 }

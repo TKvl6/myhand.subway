@@ -1,10 +1,15 @@
 train (t-40iglshn5j5jrc4168arg3d9a) {
   utterance ("[g:RandomRecommend] (인기메뉴)[v:SubwayName:인기] 중 (추천좀)[v:SearchKeyword:검색]")
-  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEKSDQIy8nODUpPzc3NT81IYJJDkglMTi5IzvFMry/OLUhhEkWVKk8oTK/0Sc1MZmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1571989004120)
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572158501817)
+}
+train (t-4encu9i8b17yp5jt1nh86hcer) {
+  utterance ("[g:RandomRecommend] 선택장인에서 (베스트)[v:SubwayName:인기] 메뉴 (보려줄래)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572159343039)
 }
 train (t-4ybzc1v1dhiaaqdcinb1vsd2f) {
   utterance ("[g:ConditionRecommend] (고소한)[v:InputKeyword:고소] 메뉴 (보여줘)[v:SearchKeyword:검색]")
-  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1571987404653)
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572158504689)
 }

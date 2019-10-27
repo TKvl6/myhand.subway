@@ -21,6 +21,10 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
         res.push(response[i]);
       }
     }
+    return {
+    menus : res,
+    keyword : "350칼로리 이하의 다이어트용 "
+    };
   }else if(inputKeyword == "든든"){
     response = tool.searchSandwichByCal(450,'high');
     console.log(response);
@@ -34,6 +38,10 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
         res.push(response[i]);
       }
     }
+    return {
+    menus : res,
+    keyword : "350칼로리 이상의 든든한 "
+    };
   }else{
     response = tool.searchSandwichByTag(inputKeyword);
     console.log(response)
@@ -47,6 +55,9 @@ module.exports.function = function conditionRecommend (inputKeyword,searchKeywor
         res.push(response[i]);
       }
     }
+    return {
+    menus : res,
+    keyword : inputKeyword + "한 "
+    };
   }
-  return res;
 }

@@ -56,4 +56,5 @@ structure (MenuResultConcept) {
     type (Image)
     min (Optional) max (Many)
   }
+
 }

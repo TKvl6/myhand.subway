@@ -1,10 +1,10 @@
 train (t-e94p0r4qg1sgrezbh9dwm0bnm) {
   utterance ("[g:ConditionRecommend]  (매운)[v:InputKeyword:매콤] 거 (추천해줘)[v:SearchKeyword:검색]")
-  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1571822004315)
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572158695587)
 }
 train (t-ehqqz82xft1progd7nimjgl37) {
   utterance ("[g:RandomRecommend] (맛있는것)[v:SubwayName:인기]으로 (추천해줘)[v:SearchKeyword:검색]")
-  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEKSDQIy8nODUpPzc3NT81IYJJDkglMTi5IzvFMry/OLUhhEkWVKk8oTK/0Sc1MZmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1571988129778)
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572158699470)
 }

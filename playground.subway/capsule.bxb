@@ -16,4 +16,15 @@ capsule {
   store-sections{
     section (FoodAndDrink)
   }
+  
+  capsule-imports {
+    import (viv.entity) {
+      as (entity)
+      version (3.21.0)
+    }
+    import (viv.core){
+      as (core)
+      version-from (entity)
+    }
+  }
 }

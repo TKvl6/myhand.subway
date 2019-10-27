@@ -1,15 +1,15 @@
 train (t-u1rglnsky47uyeryvzswdqpx2) {
   utterance ("[g:RandomRecommend] 선택장인에서 (맛있는거)[v:SubwayName:인기]로 (추천해줄래)[v:SearchKeyword:검색]")
-  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEKSDQIy8nODUpPzc3NT81IYJJDkglMTi5IzvFMry/OLUhhEkWVKk8oTK/0Sc1MZmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1571988452485)
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572158908492)
 }
 train (t-u7i09nppvdbkjor4t4nuswzr5) {
   utterance ("[g:ConditionRecommend] (다이어트용)[v:InputKeyword:다이어트] 메뉴 (알려줘봐)[v:SearchKeyword:검색]")
-  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1571989616934)
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572158910525)
 }
 train (t-ujdpotdvd2bgaph9uqkd6efq7) {
   utterance ("[g:ConditionRecommend] 선택 장인에서 (달달한)[v:InputKeyword:달콤] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
-  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1571825740694)
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572158914050)
 }

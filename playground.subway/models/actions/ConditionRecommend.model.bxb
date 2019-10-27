@@ -11,5 +11,5 @@ action (ConditionRecommend) {
       min (Required) max (One)
     }
   }
-  output (MenuResultConcept)
+  output (MenuWithKeyword)
 }

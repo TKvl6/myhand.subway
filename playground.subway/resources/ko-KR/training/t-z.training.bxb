@@ -1,10 +1,10 @@
 train (t-zmswvg6kjcatxgu85jf7379mz) {
   utterance ("[g:ConditionRecommend] 선택장인에서 (다이어트)[v:InputKeyword:다이어트]에 도움되는 메뉴 (알려줘)[v:SearchKeyword:검색]")
-  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1571990089444)
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572159060865)
 }
 train (t-zq1lnyqeqs7l15o6d15033x62) {
   utterance ("[g:ConditionRecommend]  (다이어트용)[v:InputKeyword:다이어트] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
-  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEWSBYqlZJZk5ucFpSbn5+am5qUwiCNJe+YVlJZ4p1aW5xelMEggSQSnJhYlZ8BkmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1571818786142)
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572159064887)
 }

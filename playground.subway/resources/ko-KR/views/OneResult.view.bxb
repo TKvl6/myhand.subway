@@ -1,55 +1,31 @@
 result-view {
   match {
-    MenuWithKeyword (menuResult)
+    MenuResultConcept (menuResult)
   }
   message {
     // 결과 화면에 보여줄 dialog를 설정합니다.
-    if(!exists(menuResult.menus)){
-      template-macro (no_result)
-    }else{
-      template-macro (result_getMenu) {
-        param (keyword){
-          if(exists(menuResult.keyword)){
-            expression (menuResult.keyword)
-          }
-        }
-      }
-    } 
+
+     template("#{value(menuResult.kname)}")
+
   }
   render {
-    if ("size(menuResult.menus) > 1") {
-      list-of (menuResult.menus) {
-        where-each (item) {
-          layout-macro (menu-image-card) {
-            param (menu) {
-              expression (item)
-            }
-          }
-          // layout-macro (material-hbox){
-          //   param (menu){
-          //     expression (item)
-          //   }
-          // }
-        }
-      }
-    } else-if ("size(menuResult.menus) == 1") {
       layout {
         section {
           content {
             image {
-              url ("https://ipfs.io/ipfs/QmReVM7335RJNrfqStGqFiNXS3npqj9QJR1Fj7R2JnhjQf/sandwich/#{value(menuResult.menus.no)}.jpg")
+              url ("https://ipfs.io/ipfs/QmReVM7335RJNrfqStGqFiNXS3npqj9QJR1Fj7R2JnhjQf/sandwich/#{value(menuResult.no)}.jpg")
               // url ("https://ipfs.io/ipfs/QmPoDJokUJ6AjcgXypDuy8ZqsSWWs17gFzqcM8JWmWKp5p/%5Csandwich%5C#{value(menuResult.no)}.jpg")
             }
             single-line {
               text {
                 style (Title_M)
-                value ("#{value(menuResult.menus.detail)}")
+                value ("#{value(menuResult.detail)}")
               }
             }
             single-line {
               text{
                 style (Detail_M)
-                value ("#{value(menuResult.menus.tag)}")
+                value ("#{value(menuResult.tag)}")
               }
             }
           }
@@ -62,7 +38,7 @@ result-view {
                 value ("재료")
               }
             }
-            for-each (menuResult.menus.material) {
+            for-each (menuResult.material) {
               as (item) {
                 // single-line {
                 //   text {
@@ -130,4 +106,3 @@ result-view {
   //   // }
   // }
 
-}

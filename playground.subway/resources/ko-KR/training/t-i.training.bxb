@@ -1,15 +1,15 @@
 train (t-i49dr1jnvj3ccrqxhlm4jvk34) {
   utterance ("[g:MenuFind] (스테이크)[v:NameConcept] (들어간거)[v:IncludeKeyword:포함] (보여줘)[v:SearchKeyword:검색]")
-  plan (Y2BlkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhEEaTdcvMS2GQRBL0zEvOKU1J9U6tLM8vSmEQQ5LyS8xNhZkjgSQenJpYlJwB08HCwMjAxMAMpBmALAiEASQ5AA==)
-  last-modified (1571825964444)
+  plan (Y2BlkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthkEQS9MxLzilNSYWpF0OS8kvMTXXOz0tOLShhkEASD05NLEqG28DCwMjAxMAMpBmALAiEASQ5AA==)
+  last-modified (1572158738892)
 }
 train (t-id06kdns80j5fvel8cinsn0oc) {
   utterance ("[g:RandomRecommend](메뉴)[v:SubwayName:서브웨이] (추천해줘)[v:SearchKeyword:검색]")
-  plan (Y2BhkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhkEKSDQIy8nODUpPzc3NT81IYJJDkglMTi5IzvFMry/OLUhhEkWVKk8oTK/0Sc1MZmBkYGZiAJAOQBkEIgIsCAA==)
-  last-modified (1571825971901)
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572158756306)
 }
 train (t-id2y99gas185gw67px4othioq) {
-  utterance ("[g:MenuFind] 선택장인에서 서브웨이 (인기메뉴)[v:SubwayName:인기] (추천해줘)[v:SearchKeyword:검색]")
-  plan (Y2BlkMmtzEjMS9FLy03W803NKw1KLS7NKXHOz0tOLShhEEaTdcvMS2EQQxL0S8xNhSmWQBIPTk0sSs7wTq0szy9KYRBFlilNKk+sBOljYGZgZGACkgxAGgQhACTKzMDCwAAA)
-  last-modified (1571992337474)
+  utterance ("[g:RandomRecommend] 선택장인에서 서브웨이 (인기메뉴)[v:SubwayName:인기] (추천해줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572158798217)
 }

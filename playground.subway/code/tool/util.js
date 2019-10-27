@@ -86,7 +86,7 @@ module.exports.divideMaterial = function(m,tag){
     else if(len == 1) mtArr = el
     console.log(tag);
     for(i=0;i<tag.length;i++){
-      if(textLib.fuzzyMatch(tag[i].material,mtArr)){
+      if(textLib.fuzzyMatch(tag[i].material,mtArr, -1)){
         aJson.index = tag[i].no;
         break;
       }
