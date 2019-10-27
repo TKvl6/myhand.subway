@@ -13,6 +13,11 @@ train (t-6grurrmbt92lcc7t8j830fpda) {
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
   last-modified (1572158560439)
 }
+train (t-6lihfvkhsotxrpbj5qe2udxnl) {
+  utterance ("[g:RandomRecommend] 안 질리는 (메뉴)[v:SubwayName:서브웨이] (추천해줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572181046739)
+}
 train (t-6pqidho7dy2emjryvezym6sta) {
   utterance ("[g:RandomRecommend]  (서브웨이)[v:SubwayName:서브웨이] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)

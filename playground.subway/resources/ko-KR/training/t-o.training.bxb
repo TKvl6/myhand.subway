@@ -1,3 +1,8 @@
+train (t-o2ounew0e4w1g8d8tp253g9t0) {
+  utterance ("[g:MenuFind] (치킨)[v:NameConcept] 가득한 메뉴 (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572180756077)
+}
 train (t-onuk73rv1kxd9ndebyrhbi2t4) {
   utterance ("[g:RandomRecommend] (메뉴)[v:SubwayName:서브웨이] (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)

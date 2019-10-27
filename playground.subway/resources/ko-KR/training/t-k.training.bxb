@@ -18,3 +18,8 @@ train (t-krcq6ermvcswsmbicvnvzdfma) {
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
   last-modified (1572158822210)
 }
+train (t-kt993k5w3nn7terhpzt6osb37) {
+  utterance ("[g:ConditionRecommend] (달콤한)[v:InputKeyword:달콤] 메뉴 위주로 (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572180601096)
+}

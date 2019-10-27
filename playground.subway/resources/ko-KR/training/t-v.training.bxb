@@ -8,3 +8,8 @@ train (t-vojf2fvhygnq41vgfa040z61r) {
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)
   last-modified (1572158931701)
 }
+train (t-vrhoj8hhf3azslb4hqip7fqw3) {
+  utterance ("[g:ConditionRecommend] 선택장인에서 (든든한)[v:InputKeyword:든든] 메뉴들을 (추천해줄래)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572181384350)
+}

@@ -1,5 +1,15 @@
+train (t-h1w9fszb6fsi48u6volimm6zh) {
+  utterance ("[g:myhand.fmc.RandomRecommend] (아무거나)[v:myhand.fmc.SubwayName:서브웨이] (추천좀)[v:myhand.fmc.SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572181264571)
+}
 train (t-hbqyya7jq06sfujrdwlwnegl6) {
   utterance ("[g:ConditionRecommend]  (달콤한)[v:InputKeyword:달콤] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
   last-modified (1572158734741)
+}
+train (t-ho7bmll5fixslyi8gckj66hys) {
+  utterance ("[g:myhand.fmc.RandomRecommend] (잘나가는)[v:myhand.fmc.SubwayName:인기] 메뉴 (보여줘)[v:myhand.fmc.SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572181263991)
 }

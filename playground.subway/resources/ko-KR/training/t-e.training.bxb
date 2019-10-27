@@ -1,3 +1,8 @@
+train (t-e1v1gr0glikqjbhnoq2by8obr) {
+  utterance ("[g:RandomRecommend] 선택장인에서 (맛있는거)[v:SubwayName:인기] (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572179090091)
+}
 train (t-e94p0r4qg1sgrezbh9dwm0bnm) {
   utterance ("[g:ConditionRecommend]  (매운)[v:InputKeyword:매콤] 거 (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)

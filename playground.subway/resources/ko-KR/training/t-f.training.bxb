@@ -8,6 +8,11 @@ train (t-fc3jmjo2nj7p7mxcij18amtt2) {
   plan (Y2BlkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthkEQS9MxLzilNSYWpF0OS8kvMTXXOz0tOLShhkEASD05NLEqG28DCwMjAxMAMpBmALAiEASQ5AA==)
   last-modified (1572158711307)
 }
+train (t-fh5xv2zocvtbeucuyt9zwzvtr) {
+  utterance ("[g:RandomRecommend] 먹을만한 (메뉴)[v:SubwayName:서브웨이] (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572181070631)
+}
 train (t-fn7yysg56dy8n2hyt1pcxcba7) {
   utterance ("[g:MenuFind] (치킨)[v:NameConcept]이 (들어가있는)[v:IncludeKeyword:포함] 메뉴 (알려줘)[v:SearchKeyword:검색]")
   plan (Y2BlkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthkEQS9MxLzilNSYWpF0OS8kvMTXXOz0tOLShhkEASD05NLEqG28DCwMjAxMAMpBmALAiEASQ5AA==)

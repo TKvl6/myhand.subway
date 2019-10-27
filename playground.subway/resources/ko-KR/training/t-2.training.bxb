@@ -1,5 +1,15 @@
+train (t-25t70lguebc6z8d75futz5wem) {
+  utterance ("[g:RandomRecommend] 선택 장인에서 가장 (인기)[v:SubwayName:인기] 있는 메뉴가 (뭐야)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572181558070)
+}
 train (t-2wgqxiceyd8ia8d8cz1n9nyxh) {
   utterance ("[g:MenuFind] (베지)[v:NameConcept] (찾아줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)
-  last-modified (1572167512483)
+  last-modified (1572179579466)
+}
+train (t-2z1a7m6ihjz5cwjf09rza04r2) {
+  utterance ("[g:RandomRecommend] 선택장인에서 (추천좀)[v:SearchKeyword:검색]")
+  plan (Y2BmkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6mBgYgZgBSDIygACUDwA=)
+  last-modified (1572181731690)
 }

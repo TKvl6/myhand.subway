@@ -3,6 +3,11 @@ train (t-zmswvg6kjcatxgu85jf7379mz) {
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
   last-modified (1572159060865)
 }
+train (t-znocpiv6eax4gxn5e96znisoo) {
+  utterance ("[g:myhand.fmc.ConditionRecommend] (든든한)[v:myhand.fmc.InputKeyword:든든] 메뉴 (알려줘)[v:myhand.fmc.SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572180599866)
+}
 train (t-zq1lnyqeqs7l15o6d15033x62) {
   utterance ("[g:ConditionRecommend]  (다이어트용)[v:InputKeyword:다이어트] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
