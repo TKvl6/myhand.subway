@@ -40,7 +40,7 @@ module.exports.function = function randomRecommend (subwayName,searchKeyword) {
       var num;
       num = parseInt(Math.random() * response.length) + 1;
       for(var i = 0; i < cnt; i++){
-        if(randomMenu[i] == num) flage = false;
+        if(randomMenu[i] == num) flag = false;
       }
 
       if(flag){
