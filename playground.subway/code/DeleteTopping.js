@@ -11,7 +11,7 @@ module.exports.function = function multiSelectImage (menu) {
 
   for(i=0;i<material.length;i++){
     var no = material[i].index;
-    var url = "https://github.com/TKvl6/myhand.subway/blob/master/playground.subway/assets/images/materialCard/"+ no + ".png?raw=true";
+    var url = "https://github.com/TKvl6/myhand.subway/blob/master/materialCard/"+ no + ".png?raw=true";
     images.push(url);
   }
   return images;  
