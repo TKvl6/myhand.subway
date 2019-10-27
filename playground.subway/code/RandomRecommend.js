@@ -17,14 +17,14 @@ module.exports.function = function randomRecommend (subwayName,searchKeyword) {
           response[i].material = tool.divideMaterial(response[i].material,mat);
           response[i].tag = tool.divideTag(response[i].tag);
           response[i].detail = tool.tagsentence(response[i].material,tag);
-          // for(j=0;j<response[i].material.length;j++){
-          //   var no = response[i].material[j].index;
-          //   var url = "https://github.com/TKvl6/myhand.subway/blob/master/playground.subway/assets/images/materialCard/"+ no + ".png?raw=true";
-          //   var bJson = new Object();
-          //   bJson.url = url;
-          //   images.push(bJson);
-          // }
-          // response[i].img = images;
+          for(j=0;j<response[i].material.length;j++){
+            var no = response[i].material[j].index;
+            var url = "https://raw.githubusercontent.com/TKvl6/myhand.subway/master/materialCard/"+ no + ".png";
+            var bJson = new Object();
+            bJson.url = url;
+            images.push(bJson);
+          }
+          response[i].img = images;
           result.push(response[i]);
         }
     }
@@ -59,7 +59,7 @@ module.exports.function = function randomRecommend (subwayName,searchKeyword) {
           response[menuidx].detail = tool.tagsentence(response[menuidx].material,tag);
           for(j=0;j<response[menuidx].material.length;j++){
             var no = response[menuidx].material[j].index;
-            var url = "https://github.com/TKvl6/myhand.subway/blob/master/playground.subway/assets/images/materialCard/"+ no + ".png?raw=true";
+            var url = "https://raw.githubusercontent.com/TKvl6/myhand.subway/master/materialCard/"+ no + ".png";
             var bJson = new Object();
             bJson.url = url;
             images.push(bJson);
