@@ -3,6 +3,11 @@ train (t-ni6p41zvjuzq90gpg9y3dzcdo) {
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
   last-modified (1572180169510)
 }
+train (t-nmmq8be55xiwdgfty1isdlcs0) {
+  utterance ("[g:RandomRecommend] 선택장인에서 가장 (인기 있는 메뉴)[v:SubwayName:인기]가 (뭐야)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572230839565)
+}
 train (t-nxh5n4hvhhov3yfopsbgxjz11) {
   utterance ("[g:ConditionRecommend] 선택장인에서 (달콤한)[v:InputKeyword:달콤] 메뉴들을 (찾아볼래)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
