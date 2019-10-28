@@ -1,0 +1,5 @@
+train (t-5bu03lf5jznacc9hu8j2lnmqg) {
+  utterance ("[g:myhand.fmc.RandomRecommend] 선택장인 (추천좀)[v:myhand.fmc.SearchKeyword:검색]")
+  plan (Y2BmkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6mBgYgZgBSDIygACUDwA=)
+  last-modified (1572179137110)
+}

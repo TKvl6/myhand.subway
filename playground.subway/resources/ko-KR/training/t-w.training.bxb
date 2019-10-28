@@ -3,3 +3,8 @@ train (t-w90l5ov3jykfzc03kere0q07y) {
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
   last-modified (1572158933892)
 }
+train (t-w9en9mlzatbzyg6hztlv6fz4b) {
+  utterance ("[g:RandomRecommend] 선택장인 (맛있는거)[v:SubwayName:인기] (보여줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572181860214)
+}

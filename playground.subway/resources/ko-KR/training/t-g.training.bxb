@@ -9,3 +9,18 @@ train (t-g6a2lr91ydk02cwispn5gnln0) {
   enabled (false)
   last-modified (1571818688302)
 }
+train (t-ga3e72viiosm8sou7lb1v08vn) {
+  utterance ("[g:ConditionRecommend] (매운맛)[v:InputKeyword:매콤] 샌드위치 좀 (보여줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572180641514)
+}
+train (t-gcry92s4r0lqo75vx1rpve792) {
+  utterance ("[g:MenuFind] (쉬림프)[v:NameConcept] (포함한 메뉴)[v:IncludeKeyword:포함] (불러와줘)[v:SearchKeyword:검색]")
+  plan (Y2BlkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthkEQS9MxLzilNSYWpF0OS8kvMTXXOz0tOLShhkEASD05NLEqG28DCwMjAxMAMpBmALAiEASQ5AA==)
+  last-modified (1572180425416)
+}
+train (t-gz3cevq8w10stxurt0nw6xs0g) {
+  utterance ("[g:RandomRecommend] (서브웨이)[v:SubwayName:서브웨이] (추천좀)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572180170167)
+}

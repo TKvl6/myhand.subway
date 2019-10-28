@@ -1,5 +1,20 @@
+train (t-t0nmb7nmeah1avkzenxge0ak9) {
+  utterance ("[g:MenuFind] (치킨)[v:NameConcept] (들어간 메뉴)[v:IncludeKeyword:포함] (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BlkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthkEQS9MxLzilNSYWpF0OS8kvMTXXOz0tOLShhkEASD05NLEqG28DCwMjAxMAMpBmALAiEASQ5AA==)
+  last-modified (1572180166640)
+}
 train (t-tdtrwrnpxyvtxz2wl7tupma0r) {
   utterance ("[g:ConditionRecommend]  (든든)[v:InputKeyword:든든]한 메뉴 (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
   last-modified (1572158906101)
+}
+train (t-thb9jt3w9eeh6wc6ppfy3bz8t) {
+  utterance ("[g:RandomRecommend] 선택장인에서 (맛있는거)[v:SubwayName:인기] (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572180168476)
+}
+train (t-tuqe25detlzu7mcphxbr4fg8k) {
+  utterance ("[g:RandomRecommend] (잘나가는)[v:SubwayName:인기] 메뉴 (보여줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572180173288)
 }
