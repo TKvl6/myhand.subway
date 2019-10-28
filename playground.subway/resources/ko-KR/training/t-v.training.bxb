@@ -3,6 +3,11 @@ train (t-vfst6nilvkvq8uhk10l0g53ec) {
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
   last-modified (1572152922013)
 }
+train (t-vo8kv8nmkgtwtxbftgcylwi6z) {
+  utterance ("[g:myhand.fmc.MenuFind] (비엠티)[v:myhand.fmc.NameConcept] (들어간 메뉴)[v:myhand.fmc.IncludeKeyword:포함] (알려줘)[v:myhand.fmc.SearchKeyword:검색]")
+  plan (Y2BlkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthkEQS9MxLzilNSYWpF0OS8kvMTXXOz0tOLShhkEASD05NLEqG28DCwMjAxMAMpBmALAiEASQ5AA==)
+  last-modified (1572249049315)
+}
 train (t-vojf2fvhygnq41vgfa040z61r) {
   utterance ("[g:MenuFind]  (에그마요)[v:NameConcept] (찾아줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)

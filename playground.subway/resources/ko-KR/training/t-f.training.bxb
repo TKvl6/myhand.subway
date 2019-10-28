@@ -13,6 +13,11 @@ train (t-fh5xv2zocvtbeucuyt9zwzvtr) {
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
   last-modified (1572181070631)
 }
+train (t-flop8mmwi5r0rcbyvqtvmjy5y) {
+  utterance ("[g:RandomRecommend] 최애픽 (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BmkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6mBgYgZgBSDIygACUDwA=)
+  last-modified (1572250353103)
+}
 train (t-fn7yysg56dy8n2hyt1pcxcba7) {
   utterance ("[g:MenuFind] (치킨)[v:NameConcept]이 (들어가있는)[v:IncludeKeyword:포함] 메뉴 (알려줘)[v:SearchKeyword:검색]")
   plan (Y2BlkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthkEQS9MxLzilNSYWpF0OS8kvMTXXOz0tOLShhkEASD05NLEqG28DCwMjAxMAMpBmALAiEASQ5AA==)

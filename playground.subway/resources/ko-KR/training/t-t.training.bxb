@@ -13,6 +13,11 @@ train (t-thb9jt3w9eeh6wc6ppfy3bz8t) {
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
   last-modified (1572180168476)
 }
+train (t-tp4zm28ptzdjwlppi8rgunt4g) {
+  utterance ("[g:MenuFind] (터키)[v:NameConcept] 메뉴를 (보여줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572248160276)
+}
 train (t-tuqe25detlzu7mcphxbr4fg8k) {
   utterance ("[g:RandomRecommend] (잘나가는)[v:SubwayName:인기] 메뉴 (보여줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
