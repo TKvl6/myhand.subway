@@ -8,3 +8,8 @@ train (t-qpb7si8vhm1c4tzivtuv3l48r) {
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
   last-modified (1572180169010)
 }
+train (t-qpmh1f6hnpu5i1u4dwxlk4h9t) {
+  utterance ("[g:MenuFind] (비엠티)[v:NameConcept] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572252386170)
+}

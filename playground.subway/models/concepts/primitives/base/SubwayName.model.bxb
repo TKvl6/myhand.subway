@@ -2,4 +2,7 @@ enum (SubwayName) {
   description (__DESCRIPTION__)
   symbol (서브웨이)
   symbol (인기)
+  symbol (비엠티)
+  symbol (비엘티)
+
 }
