@@ -1,3 +1,13 @@
+train (t-jgrjac0jc1mv23t7unhv306h0) {
+  utterance ("[g:RandomRecommend] 선택 장애에서 (인기 있는 메뉴)[v:SubwayName:인기]를 (추천해줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
+  last-modified (1572255754177)
+}
+train (t-jme5gsf3r2gywt8omgw1jstq4) {
+  utterance ("[g:ConditionRecommend] 선택 장애에서 (든든한)[v:InputKeyword:든든] 메뉴들 좀 (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572256249170)
+}
 train (t-jxt0pyu6gp2n65pza6w17ze3b) {
   utterance ("[g:ConditionRecommend] (배부른)[v:InputKeyword:든든] 메뉴 (추천좀)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)

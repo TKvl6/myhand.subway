@@ -13,3 +13,8 @@ train (t-opjrhca1ijlg35mlzjtro0x9m) {
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
   last-modified (1572158854626)
 }
+train (t-ovc9u2bkr5rzpc0s05ada2sa5) {
+  utterance ("[g:MenuFind] (쉬림프)[v:NameConcept] 많이 들어간 메뉴 (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572257346767)
+}

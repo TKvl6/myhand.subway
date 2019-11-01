@@ -4,6 +4,11 @@ train (t-y6wwtm655u43sr4gtepv65nid) {
   enabled (false)
   last-modified (1572158942072)
 }
+train (t-ycgwthczkc372yabl7c02g2r8) {
+  utterance ("[g:RandomRecommend] 선택 장애에서 아무 메뉴나 (보여줘)[v:SearchKeyword:검색]")
+  plan (Y2BmkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6mBgYgZgBSDIygACUDwA=)
+  last-modified (1572260673286)
+}
 train (t-yfayjpdjg74gsx9va8cono5ix) {
   utterance ("[g:MenuFind] (쉬림프)[v:NameConcept] (포함한)[v:IncludeKeyword:포함] 메뉴 좀 (알려줘)[v:SearchKeyword:검색]")
   plan (Y2BlkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthkEQS9MxLzilNSYWpF0OS8kvMTXXOz0tOLShhkEASD05NLEqG28DCwMjAxMAMpBmALAiEASQ5AA==)

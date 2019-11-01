@@ -4,6 +4,11 @@ train (t-9kmugbw51wwx1d582evo92ywx) {
   enabled (false)
   last-modified (1571818711874)
 }
+train (t-9liansdjhkgws35m8d5axjjk3) {
+  utterance ("[g:MenuFind] (치킨)[v:NameConcept] 베이스에 메뉴 하나만 (추천해줘봐)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572258344174)
+}
 train (t-9szvdms0tp4uwtck5t2hmw0up) {
   utterance ("[g:RandomRecommend]  (아무거나)[v:SubwayName:서브웨이] (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)

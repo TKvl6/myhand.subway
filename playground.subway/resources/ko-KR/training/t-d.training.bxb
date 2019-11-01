@@ -1,3 +1,8 @@
+train (t-d5ejmm8k7jzx4vb7vc4o81z4j) {
+  utterance ("[g:MenuFind] 선택 창에서 (참치)[v:NameConcept]가 들어가 있는 메뉴 (찾아줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572256633633)
+}
 train (t-da1rxry4hhyzaqkxw0hnpvs9f) {
   utterance ("[g:MenuFind] (에그마요)[v:NameConcept] (포함된 메뉴)[v:IncludeKeyword:포함] (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BlkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthkEQS9MxLzilNSYWpF0OS8kvMTXXOz0tOLShhkEASD05NLEqG28DCwMjAxMAMpBmALAiEASQ5AA==)

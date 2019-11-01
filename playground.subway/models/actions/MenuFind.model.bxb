@@ -12,7 +12,7 @@ action (MenuFind) {
     }
     input (searchKeyword) {
       type (SearchKeyword)
-      min (Required) max (One)
+      min (Optional) max (One)
     }
   }
   output (MenuWithKeyword)

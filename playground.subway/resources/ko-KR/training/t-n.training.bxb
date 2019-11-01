@@ -1,3 +1,8 @@
+train (t-n9k2s0qzzghutueynxcw2en15) {
+  utterance ("[g:MenuFind] 선택 장애에서 (치킨)[v:NameConcept]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgATWJQBAA==)
+  last-modified (1572258396360)
+}
 train (t-ni6p41zvjuzq90gpg9y3dzcdo) {
   utterance ("[g:RandomRecommend] 선택장인에서 (맛있는거)[v:SubwayName:인기] (알려줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)

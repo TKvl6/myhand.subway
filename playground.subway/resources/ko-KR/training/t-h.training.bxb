@@ -3,6 +3,11 @@ train (t-h1w9fszb6fsi48u6volimm6zh) {
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
   last-modified (1572181264571)
 }
+train (t-ha86i6kr9fb1ulyaynuolzzt2) {
+  utterance ("[g:MenuFind] (쉬림프)[v:NameConcept] (가져와)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572257489015)
+}
 train (t-hbqyya7jq06sfujrdwlwnegl6) {
   utterance ("[g:ConditionRecommend]  (달콤한)[v:InputKeyword:달콤] 메뉴 (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)

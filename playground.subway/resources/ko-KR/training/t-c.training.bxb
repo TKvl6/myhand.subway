@@ -3,3 +3,8 @@ train (t-c7xr3xq5pgg7b8c3ogdpnden9) {
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
   last-modified (1572180828600)
 }
+train (t-cc18sczdq4vpsuc2fy3omy4ql) {
+  utterance ("[g:RandomRecommend] 선택 장애에서 메뉴 추천 좀 (해주십시오)[v:SearchKeyword:검색]")
+  plan (Y2BmkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6mBgYgZgBSDIygACUDwA=)
+  last-modified (1572259576366)
+}

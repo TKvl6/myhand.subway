@@ -18,3 +18,8 @@ train (t-2z1a7m6ihjz5cwjf09rza04r2) {
   plan (Y2BmkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6mBgYgZgBSDIygACUDwA=)
   last-modified (1572181731690)
 }
+train (t-2z8x27hcvz17h83uvgw0ol78d) {
+  utterance ("[g:ConditionRecommend] 먹었을 때 (든든한)[v:InputKeyword:든든] 메뉴들을 (추천해줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572256050585)
+}

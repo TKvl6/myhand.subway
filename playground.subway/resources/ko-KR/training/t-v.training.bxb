@@ -3,6 +3,11 @@ train (t-vfst6nilvkvq8uhk10l0g53ec) {
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
   last-modified (1572152922013)
 }
+train (t-vhjxmhudotuelgl654h4oph2o) {
+  utterance ("[g:MenuFind] 선택 장애에서(에 그 마요)[v:NameConcept] 기반의 메뉴를 (알고 싶어요)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572257573856)
+}
 train (t-vo8kv8nmkgtwtxbftgcylwi6z) {
   utterance ("[g:myhand.fmc.MenuFind] (비엠티)[v:myhand.fmc.NameConcept] (들어간 메뉴)[v:myhand.fmc.IncludeKeyword:포함] (알려줘)[v:myhand.fmc.SearchKeyword:검색]")
   plan (Y2BlkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthkEQS9MxLzilNSYWpF0OS8kvMTXXOz0tOLShhkEASD05NLEqG28DCwMjAxMAMpBmALAiEASQ5AA==)

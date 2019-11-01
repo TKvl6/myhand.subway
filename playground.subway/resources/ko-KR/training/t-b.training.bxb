@@ -13,3 +13,8 @@ train (t-bjj5jcfb70zlmb8jaent6fn3g) {
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)
   last-modified (1572158621039)
 }
+train (t-bto97zwpgjl3xum9jrcubu5aw) {
+  utterance ("[g:MenuFind] 선택 장애에서 (치킨)[v:NameConcept]이 (들어있는)[v:IncludeKeyword:포함] 메뉴 (찾아줘)[v:SearchKeyword:검색]")
+  plan (Y2BlkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthkEQS9MxLzilNSYWpF0OS8kvMTXXOz0tOLShhkEASD05NLEqG28DCwMjAxMAMpBmALAiEASQ5AA==)
+  last-modified (1572309004441)
+}

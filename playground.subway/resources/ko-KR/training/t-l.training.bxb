@@ -3,3 +3,8 @@ train (t-lxjoux08dky3kh7kemp9y2w64) {
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYZBFknPOz0vJLMnMzwtKTc7PzU3NS2EQR5L2zCsoLYHpk0CSCE5NLEqGm8jMwMjABCQZgDQIQgBcFAA=)
   last-modified (1572158824876)
 }
+train (t-lxuxwk7f1fwq8qmnfxrzl2o7n) {
+  utterance ("[g:MenuFind] 선택 장인에서 (치킨)[v:NameConcept] 들어간거 (보여줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)
+  last-modified (1572255930024)
+}
