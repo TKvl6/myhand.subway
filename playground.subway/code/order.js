@@ -3,7 +3,7 @@ module.exports.function = function order(menu) {
   var textLib = require('textLib');
   var util = require('tool/util.js')
   var db = require('tool/getDB.js');
-  var input = menu.menus[0];
+  var input = menu;
   console.log(input)
   var result={
     orders : undefined

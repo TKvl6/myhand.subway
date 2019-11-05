@@ -3,7 +3,7 @@ action (order) {
   type(Search)
   collect {
     input (menu) {
-      type (MenuWithKeyword)
+      type (MenuResultConcept)
       min (Required) max (One)
     }
   }

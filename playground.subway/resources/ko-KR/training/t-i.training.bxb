@@ -21,5 +21,5 @@ train (t-iftyut1jrtcvg99u6i607pmia) {
 train (t-ijdps76snaq5rkih46r3xy4r0) {
   utterance ("[g:MenuFind] (에그)[v:NameConcept] 메뉴를 (보여줄래)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KYRBGk3PLzEthEEMS9EvMTXXOz0tOLShhkEASD05NLEqGG8PMwMjABCQZgDQIQgBcFAA=)
-  last-modified (1572256539483)
+  last-modified (1572917206073)
 }

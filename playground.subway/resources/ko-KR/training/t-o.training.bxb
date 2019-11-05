@@ -6,7 +6,7 @@ train (t-o2ounew0e4w1g8d8tp253g9t0) {
 train (t-onuk73rv1kxd9ndebyrhbi2t4) {
   utterance ("[g:RandomRecommend] (메뉴)[v:SubwayName:서브웨이] (추천해줘)[v:SearchKeyword:검색]")
   plan (Y2BhkMqtzEjMS9FLy03W803NKw3PLMnwTq0szy9KQZELAjLyc4NSk/Nzc1PzUhgkkOSCUxOLkuG6RJFlSpPKEyv9EnNTGZgZGBmYgCQDkAZBCICLAgA=)
-  last-modified (1572158851965)
+  last-modified (1572917229862)
 }
 train (t-opjrhca1ijlg35mlzjtro0x9m) {
   utterance ("[g:RandomRecommend] (메뉴)[v:SubwayName:서브웨이] (찾아줘)[v:SearchKeyword:검색]")
